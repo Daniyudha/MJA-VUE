@@ -97,9 +97,9 @@
     position: relative;
     margin-top: 0px;
 }
-.-mt-n{
+/* .-mt-n{
     margin-top: -84px;
-}
+} */
 .pad{
     padding: 50px;
 }

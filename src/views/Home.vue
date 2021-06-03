@@ -56,7 +56,7 @@
       </div>
       <div class="row mt-5 justify-content-center d-md-flex d-none">
           <div class="mb-4 col-lg-4 col-md-4">
-            <div class="card wow fadeInLeft" data-wow-delay="500ms">
+            <div class="card-pt wow fadeInLeft" data-wow-delay="500ms">
               <div class="card-body">
                   <div class="text-center">
                       <img :src="require ('@/assets/images/beranda/sejak-tahun-2013.png')" alt="" />
@@ -71,7 +71,7 @@
           </div>
         </div>
         <div class="mb-4 col-lg-4 col-md-4">
-          <div class="card wow fadeInUp" data-wow-delay="800ms">
+          <div class="card-pt wow fadeInUp" data-wow-delay="800ms">
               <div class="card-body">
                   <div class="text-center">
                       <img :src="require ('@/assets/images/beranda/perkebunan-sendiri.png')" alt="" />
@@ -87,7 +87,7 @@
           </div>
         </div>
         <div class="mb-4 col-lg-4 col-md-4">
-            <div class="card wow fadeInRight" data-wow-delay="1100ms">
+            <div class="card-pt wow fadeInRight" data-wow-delay="1100ms">
                 <div class="card-body">
                     <div class="text-center">
                         <img :src="require ('@/assets/images/beranda/konsep-marketing.png')" alt="" />
@@ -115,7 +115,7 @@
             :center="true" :loop="true" :dots="false" :navText="navSlide">
               <div class="item">
                   <div class="mb-4">
-                      <div class="card">
+                      <div class="card-pt">
                           <div class="card-body">
                             <div class="text-center">
                                 <div class="">
@@ -138,7 +138,7 @@
               </div>
               <div class="item">
                   <div class="mb-4 col-lg-4 col-md-4">
-                      <div class="card">
+                      <div class="card-pt">
                           <div class="card-body">
                               <div class="text-center">
                                   <img
@@ -160,7 +160,7 @@
               </div>
               <div class="item">
                   <div class="mb-4 col-lg-4 col-md-4">
-                  <div class="card">
+                  <div class="card-pt">
                       <div class="card-body">
                         <div class="text-center">
                             <img

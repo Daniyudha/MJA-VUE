@@ -44,8 +44,9 @@
                     <li class="px-2 nav-item">
                         <router-link to="/kontak" class="nav-link">Kontak Kami</router-link>
                     </li>
-                    </ul>
-                    <ul class="navbar-nav ml-auto mr-3 align-items-center">
+                </ul>
+                
+                <ul class="navbar-nav ml-auto mr-3 align-items-center">
                     <li class="px-2 nav-item">
                         <a class="nav-link" href="#">Masuk</a>
                     </li>

@@ -1,25 +1,25 @@
 <template>
   <div id="app">
-    <Navbar/>
+    <Navbar2/>
     <router-view/>
     <Footer/>
   </div>
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue'
+import Navbar2 from './components/Navbar2.vue'
 import Footer from './components/Footer.vue'
 
 export default {
   components: {
-    Navbar,
+    Navbar2,
     Footer
   }
 };
 </script>
 
 <style>
-@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css";
+/* @import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"; */
 @import "assets/css/style.css";
 /* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
