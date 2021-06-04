@@ -1,7 +1,7 @@
 <template>
     <div class="master-stokis">
         <!-- Background -->
-        <div class="z offset-lg-5 col-lg-6 offset-md-4 col-md-8 -mt-n wow fadeInRight">
+        <div class="z offset-lg-6 col-lg-6 offset-md-4 col-md-8 -mt-n wow fadeInRight">
             <img class="mt-bg" :src="require ('@/assets/images/beranda/bg-section-1.png')" alt="">
         </div>
 
@@ -17,9 +17,9 @@
         </div>
         <!-- END DAFTAR STOKIS -->
 
-        <!-- START CARD -->
+        <!-- START MASTER -->
         <div class="container">
-            <div class="row align-items-center justify-content-center">
+            <div class="row align-items-center justify-content-center mt-section">
                 <div class="col-lg-7 col-md-6 col-12 wow fadeInLeft" data-wow-delay="800ms">
                     <img class="img-fluid" :src="require ('@/assets/images/master stokis/sumatera-utara.png')" alt="">
                     <img class="img-fluid loc1" :src="require ('@/assets/images/master stokis/location.png')" alt="">
@@ -53,7 +53,7 @@
 
         <!-- Background -->
         <div class="z bg-1-2 wow fadeInLeft">
-            <img class="img-bg" :src="require ('@/assets/images/beranda/bg-section-2-3.png')" alt="">
+            <img class="img-bg-kiri" :src="require ('@/assets/images/beranda/bg-section-2-3.png')" alt="">
         </div>
 
         <div class="container -mt-section-2">
@@ -95,7 +95,7 @@
 
         <!-- Backgroung 3-4 -->
         <div class="offset-10 col-2 z bg-1-2 -mt-section d-lg-block d-none wow fadeInRight">
-            <img class="img-bg" :src="require ('@/assets/images/beranda/bg-section-3-4.png')" alt="">
+            <img class="img-bg-kanan" :src="require ('@/assets/images/beranda/bg-section-3-4.png')" alt="">
         </div>
 
         <div class="container -mt-section-2">
@@ -130,7 +130,7 @@
 
         <!-- Background -->
         <div class="z bg-1-2 wow fadeInLeft">
-            <img class="img-bg" :src="require ('@/assets/images/beranda/bg-section-4-5.png')" alt="">
+            <img class="img-bg-kiri" :src="require ('@/assets/images/beranda/bg-section-4-5.png')" alt="">
         </div>
 
         <div class="container -mt-section-2">
@@ -172,7 +172,7 @@
 
         <!-- Backgroung 3-4 -->
         <div class="offset-10 col-2 z bg-1-2 mt d-lg-block d-none wow fadeInRight">
-            <img class="img-bg" :src="require ('@/assets/images/beranda/bg-section-5-6.png')" alt="">
+            <img class="img-bg-kanan" :src="require ('@/assets/images/beranda/bg-section-5-6.png')" alt="">
         </div>
 
         <div class="container -mt-section-2">
@@ -204,7 +204,7 @@
                 </div>
             </div>
         </div>
-        <!-- END CARD -->
+        <!-- END MASTER -->
 
         <!-- Backgroung 6-7 -->
         <div class="z bg-1-2 wow fadeInUp ">

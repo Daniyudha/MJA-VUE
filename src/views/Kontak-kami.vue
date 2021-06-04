@@ -57,7 +57,7 @@
                                 data-form-field="message"></textarea>
                         </div>
                         <div class="wow fadeInRight" data-wow-delay="1700ms">
-                            <button type="submit" class="btn btn-bg-ijo rounded px-3 py-2 mt-2 float-right">SUBMIT</button>
+                            <button type="submit" class=" btn-bg-ijo rounded px-3 py-2 mt-2 float-right">SUBMIT</button>
                         </div>
                     </form>
                 </div>

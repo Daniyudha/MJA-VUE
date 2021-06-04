@@ -1,6 +1,6 @@
 <template>
     <!-- START BANNER -->
-  <div class="container-fluid bg-green -mt-section-2 position-relative">
+  <div class="container-fluid bg-green -mt-banner position-relative">
     <div class="container">
       <div class="row justify-content-center align-items-center">
         <div class="col-lg-7 col-md-10 col-sm-8 col-10">

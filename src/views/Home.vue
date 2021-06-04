@@ -418,7 +418,7 @@
 
   <!-- Backgroung 5-6 -->
   <div class="float-right z bg-1-2 d-md-inline d-none wow fadeInUp">
-    <img class="img-bg-kanan -mt-section-2" :src="require ('@/assets/images/beranda/bg-section-5-6.svg')" alt="">
+    <img class="img-bg-kanan -mt-section" :src="require ('@/assets/images/beranda/bg-section-5-6.svg')" alt="">
   </div>
 
   <!-- START CUSTOMER SERVICE -->
