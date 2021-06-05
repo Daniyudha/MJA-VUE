@@ -170,7 +170,7 @@
     justify-content: space-between;
     align-items: center;
     transition: 0.5s;
-    padding: 10px ;
+    padding: 15px ;
     z-index: 1000;
   }
   header.sticky{

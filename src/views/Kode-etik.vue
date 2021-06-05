@@ -112,8 +112,8 @@
         <!-- END KODE ETIK -->
 
         <!-- Background -->
-        <div class="z -mt-section-2 wow fadeInUp">
-            <img class="" :src="require ('@/assets/images/beranda/bg-section-2-3.png')" alt="">
+        <div class="z -mt-section wow fadeInUp">
+            <img class="img-bg-2 d-md-block d-none" :src="require ('@/assets/images/beranda/bg-section-2-3.png')" alt="">
         </div>
 
         <Banner/>
@@ -169,12 +169,25 @@
     max-width: 85%;
 }
 
+.c2{
+    padding: 30px;
+    margin-left: 40px;
+}
+
+@media (max-width:1025px) {
+    .c2{
+        padding: 20px;
+        margin-left: 50px;
+    }
+}
+
 @media (max-width:769px) {
-    .c1{
-        margin: 50px;
-        border: 15px solid #000;
-        border-radius: 15px;
-        max-width: 90%;
+    .c2{
+        padding: 10px;
+        margin-left: 50px;
+    }
+    .-mt-section{
+        margin-top: -150px;
     }
 }
 
@@ -185,11 +198,13 @@
         border-radius: 15px;
         max-width: 90%;
     }
-}
-
-.c2{
-    padding: 30px;
-    margin-left: 40px;
+    .c2{
+        padding: 5px;
+        margin-left: 60px;
+    }
+    .-mt-banner{
+        margin-top: 200px;
+    }
 }
 
 .slick-prev {

@@ -707,6 +707,10 @@ ul li ul.dropdown li{
       max-height: 350px;
       width: auto;
     }
+    .img-bg-2{
+      max-height: 400px;
+      width: auto;
+    }
     .testimonials{
       width: 80vw;
       margin-top: 200px;
