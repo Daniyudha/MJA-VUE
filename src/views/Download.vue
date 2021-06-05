@@ -73,7 +73,7 @@ export default {
 </script>
 
 <style>
-.-mt-section-2{
+.-mt-banner{
     margin-top: 100px;
 }
 </style>
