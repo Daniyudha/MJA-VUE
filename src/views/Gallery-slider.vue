@@ -10,20 +10,17 @@
             <carousel class="stack-carousel" :responsive="{0:{items:1.3,nav:false},600:{items:2,nav:true},900:{items:4,nav:true}}" 
                 :center="true" :loop="true" :dots="false" :navText="navSlide" id="legal">
                 <div class="item">
-                    <img class="mklbItem" :src="require ('@/assets/images/gallery/video-thumbnail-1.png')"
-                        data-src="assets/images/gallery/video-thumbnail-1.png" data-gallery="gallery1" />
+                    <img class="mklbItem" :src="require ('@/assets/images/gallery/video-thumbnail-1.png')"/>
                 </div>
                 <div class="item">
-                    <img class="mklbItem" :src="require ('@/assets/images/gallery/video-thumbnail-2.png')"
-                        data-src="assets/images/gallery/video-thumbnail-2.png" data-gallery="gallery1" />
+                    <img class="mklbItem" :src="require ('@/assets/images/gallery/video-thumbnail-2.png')"/>
                 </div>
                 <!-- <div class="item">
                     <img class="mklbItem" :src="require ('@/assets/images/gallery/video-thumbnail-3.png')"
                         data-src="assets/images/gallery/video-thumbnail-3.png" data-gallery="gallery1" />
                 </div> -->
                 <div class="item">
-                    <img class="mklbItem" :src="require ('@/assets/images/gallery/video-thumbnail-4.png')"
-                        data-src="assets/images/gallery/video-thumbnail-4.png" data-gallery="gallery1" />
+                    <img class="mklbItem" :src="require ('@/assets/images/gallery/video-thumbnail-4.png')"/>
                 </div>
             </carousel>
             <h6 class="text-center mt-3 wow fadeInUp">Acara MJA</h6>

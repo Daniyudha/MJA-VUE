@@ -171,7 +171,12 @@
     align-items: center;
     transition: 0.5s;
     padding: 15px ;
-    z-index: 1000;
+    z-index: 9;
+  }
+  @media (max-width: 500px) {
+    header{
+      padding: 0px;
+    }
   }
   header.sticky{
     padding: 0px;

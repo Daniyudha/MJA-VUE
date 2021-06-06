@@ -12,6 +12,15 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+// global registration in the entry file, e.g. main.js
+import VueEasyLightbox from 'vue-easy-lightbox'
+
+// Method 1. via Vue.use
+Vue.use(VueEasyLightbox)
+
+// Method 2. Register via Vue.component
+Vue.component(VueEasyLightbox.name, VueEasyLightbox)
+
 // Make BootstrapVue available throughout your project
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin

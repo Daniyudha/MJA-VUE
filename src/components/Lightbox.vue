@@ -1,9 +1,30 @@
 <template>
   <div>
     <slot name="preview" :show="show">
-      <a v-if="thumbnail" :href="images[0]" target="_blank" @click.prevent="show" class="lightbox__thumbnail">
+      <!-- <a v-if="thumbnail" :href="images[0]" target="_blank" @click.prevent="show" class="lightbox__thumbnail">
         <img :src="thumbnail" :alt="alternateText">
-      </a>
+      </a> -->
+
+    <div class="container wow fadeIn" data-wow-delay="400ms" >
+      <div class="col-md-12 col-12">
+        <carousel class="legalitas-carousel" :responsive="{0:{items:1,nav:false},600:{items:2.4,nav:true},900:{items:3.7,nav:true}}" 
+          :center="false" :loop="true" :dots="false" :navText="navSlide" id="legal">
+            <div class="item" :href="images[0]"  @click.prevent="show">
+              <img class="ron img-fluid" :src="require ('@/assets/images/about us/legalitas-1.png')"/>
+            </div>
+            <div class="item" :href="images[0]"  @click.prevent="show">
+              <img class="ron img-fluid" :src="require ('@/assets/images/about us/legalitas-2.png')"/>
+            </div>
+            <div class="item" :href="images[0]"  @click.prevent="show">
+              <img class="ron img-fluid" :src="require ('@/assets/images/about us/legalitas-3.png')"/>
+            </div>
+            <div class="item" :href="images[0]"  @click.prevent="show">
+              <img class="ron img-fluid" :src="require ('@/assets/images/about us/legalitas-4.png')"/>
+            </div>
+        </carousel>
+      </div>
+    </div>
+
     </slot>
     <div class="lightbox" v-if="visible" @click="hide">
       <div class="lightbox__close" @click="hide">
@@ -50,6 +71,8 @@
   import Vue from 'vue'
   import LightboxDefaultLoader from './LightboxDefaultLoader.vue'
   export { LightboxDefaultLoader }
+  import carousel from "vue-owl-carousel";
+
   export default {
     props: {
       thumbnail: {
@@ -74,12 +97,17 @@
     },
     components: {
       LightboxDefaultLoader,
+      carousel
     },
     data() {
       return {
         visible: this.value,
         index: this.openAtIndex,
         displayImage: true,
+        navSlide: [
+          '<i class="legalitas-nav legalitas-prev fas fa-chevron-left"></i>',
+          '<i class="legalitas-nav legalitas-next fas fa-chevron-right"></i>'
+        ]
       }
     },
     computed: {
@@ -195,11 +223,15 @@
     right: 0;
     top: 0;
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     cursor: pointer;
     color: #fff;
-    width: 4rem;
-    height: 4rem;
+    z-index: 10;
+    /* width: 5rem;
+    height: 5rem; */
+  }
+  .lightbox__close:hover {
+    transform: scale(1.2);
   }
   .lightbox__arrow--invisible {
     visibility: hidden;
@@ -210,7 +242,7 @@
     height: fit-content;
   }
   .lightbox__arrow {
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -224,9 +256,59 @@
     flex: 1;
   }
   .lightbox__image img {
-    width: 100%;
-    height: auto !important;
+    margin: 320px;
+    /* width: 100%; */
+    height: 50vw !important;
   }
+
+  @media screen and (max-width: 1280px) {
+    .lightbox__image img {
+      margin: 230px;
+      /* width: 100%; */
+      height: 50vw !important;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .lightbox__image img {
+      margin: 250px;
+      /* width: 100%; */
+      height: 55vw !important;
+    }
+  }
+
+  @media screen and (max-width: 769px) {
+    .lightbox__image img {
+      margin: 160px;
+      /* width: 100%; */
+      height: 70vw !important;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .lightbox__image img {
+      margin: 63px;
+      /* width: 100%; */
+      height: 100vw !important;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .lightbox__image img {
+      margin: 55px;
+      /* width: 100%; */
+      height: 100vw !important;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    .lightbox__image img {
+      margin: 46px;
+      /* width: 100%; */
+      height: 100vw !important;
+    }
+  }
+
   @media screen and (max-width: 720px) {
     .lightbox__arrow {
       padding: 0 1rem;

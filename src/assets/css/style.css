@@ -1110,7 +1110,7 @@ ul li ul.dropdown li{
     background-color: #fff;
     box-shadow: 0 4px 12px rgba(56, 51, 64, 0.15);
     border-radius: 1rem;
-    height: 380px;
+    height: 390px;
   }
 
   .legalitas-carousel.owl-carousel{
@@ -1299,16 +1299,14 @@ ul li ul.dropdown li{
   }
 
   .sec-leg{
-    margin-top: -600px;
+    margin-top: -550px;
     z-index: 1;
-    margin-bottom: 100px;
   }
 
   @media (max-width:1280px) {
     .sec-leg{
       margin-top: -500px;
       z-index: 1;
-      margin-bottom: 130px;
     }
     .legalitas-carousel .owl-item {
       padding: 50px 10px;
@@ -1323,7 +1321,7 @@ ul li ul.dropdown li{
       background-color: #fff;
       box-shadow: 0 4px 12px rgba(56, 51, 64, 0.15);
       border-radius: 1rem;
-      height: 380px;
+      height: 390px;
     }
   }
 
@@ -1331,10 +1329,9 @@ ul li ul.dropdown li{
     .sec-leg{
       margin-top: -400px;
       z-index: 1;
-      margin-bottom: 130px;
     }
     .legalitas-carousel .item {
-      height: 280px;
+      height: 320px;
     }
   }
 
@@ -1342,10 +1339,12 @@ ul li ul.dropdown li{
     .legalitas-carousel.owl-carousel{
       padding: 20px;
     }
+    .legalitas-carousel .item {
+      height: 365px;
+    }
     .sec-leg{
       margin-top: -280px;
       z-index: 1;
-      margin-bottom: 130px;
     }
     .testi-carousel .item {
       height: 300px;
@@ -1359,10 +1358,15 @@ ul li ul.dropdown li{
     .legalitas-carousel.owl-carousel{
       padding: 20px;
     }
+    .legalitas-carousel .item {
+      background-color: transparent;
+      box-shadow: none;
+      border-radius: none;
+      margin-bottom: 200px;
+    }
     .sec-leg{
       margin-top: -150px;
       z-index: 1;
-      margin-bottom: 130px;
     }
     .legalitas-carousel .item {
       height: 230px;
@@ -1401,10 +1405,15 @@ ul li ul.dropdown li{
     .legalitas-carousel.owl-carousel{
       padding: 20px;
     }
+    .legalitas-carousel .item {
+      background-color: transparent;
+      box-shadow: none;
+      border-radius: none;
+      margin-bottom: 150px;
+    }
     .sec-leg{
       margin-top: -130px;
       z-index: 1;
-      margin-bottom: 130px;
     }
     .legalitas-carousel .item {
       height: 180px;
@@ -1418,7 +1427,12 @@ ul li ul.dropdown li{
     .sec-leg{
       margin-top: -100px;
       z-index: 1;
-      margin-bottom: 130px;
+    }
+    .legalitas-carousel .item {
+      background-color: transparent;
+      box-shadow: none;
+      border-radius: none;
+      margin-bottom: 140px;
     }
     .legalitas-carousel .item {
       height: 135px;
@@ -1717,7 +1731,7 @@ section.imageContainer {
   }
   .mt-bg{
     margin-top: 70px;
-    margin-left: 30px;
+    margin-left: 13px;
     max-width: 100%;
     height: auto;
   }
@@ -1744,7 +1758,7 @@ section.imageContainer {
 @media (max-width:376px) {
   .mt-bg{
     margin-top: 70px;
-    margin-left: 40px;
+    margin-left: 15px;
     max-width: 100%;
     height: auto;
   }
@@ -1765,7 +1779,7 @@ section.imageContainer {
 @media (max-width:326px) {
   .mt-bg{
     margin-top: 70px;
-    margin-left: 50px;
+    margin-left: 13px;
     max-width: 100%;
     height: auto;
   }
