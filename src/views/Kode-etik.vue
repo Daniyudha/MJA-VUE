@@ -1,8 +1,8 @@
 <template>
     <div class="kodeetik">
         <!-- Background -->
-        <div class="z offset-lg-6 col-lg-6 offset-md-4 col-md-8 -mt-n wow fadeInRight">
-            <img class="mt-bg" :src="require ('@/assets/images/beranda/bg-section-1.png')" alt="">
+        <div class="z offset-md-6 col-md-6 offset-3 col-9 -mt-n wow fadeInRight">
+                <img class="mt-bg" :src="require ('@/assets/images/beranda/bg-section-1.png')" alt="">
         </div>
 
         <!-- START KODE ETIK -->

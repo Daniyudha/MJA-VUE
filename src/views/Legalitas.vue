@@ -1,16 +1,16 @@
 <template>
     <div class="marketing">
         <!-- Background -->
-        <div class="z offset-6 col-6 -mt-n wow fadeInRight">
+        <div class="z offset-md-6 col-md-6 offset-3 col-9 -mt-n wow fadeInRight">
             <img class="mt-bg" :src="require ('@/assets/images/beranda/bg-section-1.png')" alt="">
         </div>
 
         <!-- START PLAN -->
         <section class="legalitas">
             <div class="container sec-leg">
-                <div class="text-center">
-                    <h2 class="font-weight-bold l-s t-g wow fadeInDown" data-wow-delay="200ms">MARKETING PLAN</h2>
-                    <h3 class="text-abumuda t-g-d wow fadeInDown" data-wow-delay="400ms">PT. MAKIN JAYA AGUNG</h3>
+                <div class="text-left">
+                  <h1 class="l-t wow fadeInLeft">Legalitas</h1>
+                <hr class="garis float-left wow fadeInUp">
                 </div>
             </div>
         </section>

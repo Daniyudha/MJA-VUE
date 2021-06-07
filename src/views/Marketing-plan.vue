@@ -1,7 +1,7 @@
 <template>
     <div class="marketing">
         <!-- Background -->
-        <div class="z offset-6 col-6 -mt-n wow fadeInRight">
+        <div class="z offset-md-6 col-md-6 offset-3 col-9 -mt-n wow fadeInRight">
                 <img class="mt-bg" :src="require ('@/assets/images/beranda/bg-section-1.png')" alt="">
         </div>
 

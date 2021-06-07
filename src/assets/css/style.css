@@ -757,6 +757,10 @@ ul li ul.dropdown li{
       max-height: 180px;
       width: auto;
     }
+    .img-bg-2{
+      max-height: 350px;
+      width: auto;
+    }
     .hr-testi{
       margin-top: -68px;
     }
@@ -1327,7 +1331,7 @@ ul li ul.dropdown li{
 
   @media (max-width:1024px) {
     .sec-leg{
-      margin-top: -400px;
+      margin-top: -390px;
       z-index: 1;
     }
     .legalitas-carousel .item {
@@ -1340,7 +1344,7 @@ ul li ul.dropdown li{
       padding: 20px;
     }
     .legalitas-carousel .item {
-      height: 365px;
+      height: 310px;
     }
     .sec-leg{
       margin-top: -280px;
@@ -1365,7 +1369,7 @@ ul li ul.dropdown li{
       margin-bottom: 200px;
     }
     .sec-leg{
-      margin-top: -150px;
+      margin-top: -250px;
       z-index: 1;
     }
     .legalitas-carousel .item {
@@ -1412,7 +1416,7 @@ ul li ul.dropdown li{
       margin-bottom: 150px;
     }
     .sec-leg{
-      margin-top: -130px;
+      margin-top: -200px;
       z-index: 1;
     }
     .legalitas-carousel .item {
@@ -1425,7 +1429,7 @@ ul li ul.dropdown li{
 
   @media (max-width:330px) {
     .sec-leg{
-      margin-top: -100px;
+      margin-top: -170px;
       z-index: 1;
     }
     .legalitas-carousel .item {
@@ -1643,6 +1647,11 @@ section.imageContainer {
   margin-bottom: 200px;
 }
 
+.sec-galerislider{
+  margin-top: -450px;
+  margin-bottom: 220px;
+}
+
 .sec-stokis{
   margin-top: -500px;
   z-index: 1;
@@ -1671,6 +1680,10 @@ section.imageContainer {
     margin-top: -430px;
     margin-bottom: 150px;
   }
+  .sec-galerislider{
+    margin-top: -400px;
+    margin-bottom: 160px;
+  }
   .sec-stokis{
     margin-top: -450px;
     margin-bottom: 0px;
@@ -1691,6 +1704,10 @@ section.imageContainer {
   .sec-kontak{
     margin-top: -350px;
     margin-bottom: 80px;
+  }
+  .sec-galerislider{
+    margin-top: -310px;
+    margin-bottom: 200px;
   }
   .sec-stokis{
     margin-top: -350px;
@@ -1713,6 +1730,10 @@ section.imageContainer {
   .sec-kontak{
     margin-top: -410px;
     margin-bottom: 70px;
+  }
+  .sec-galerislider{
+    margin-top: -230px;
+    margin-bottom: -150px;
   }
   .sec-stokis{
     margin-top: -410px;
@@ -1739,6 +1760,10 @@ section.imageContainer {
     margin-top: -340px;
     margin-bottom: 70px;
     margin-left: 20px;
+  }
+  .sec-galerislider{
+    margin-top: -200px;
+    margin-bottom: -100px;
   }
   .sec-stokis{
     margin-top: -340px;
@@ -1767,6 +1792,10 @@ section.imageContainer {
     margin-bottom: 70px;
     margin-left: 0px;
   }
+  .sec-galerislider{
+    margin-top: -150px;
+    margin-bottom: -100px;
+  }
   .sec-stokis{
     margin-top: -300px;
     margin-bottom: 0px;
@@ -1787,6 +1816,10 @@ section.imageContainer {
     margin-top: -260px;
     margin-bottom: 70px;
     margin-left: 0px;
+  }
+  .sec-galerislider{
+    margin-top: -120px;
+    margin-bottom: -130px;
   }
   .sec-stokis{
     margin-top: -260px;

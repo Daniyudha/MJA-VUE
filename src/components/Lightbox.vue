@@ -7,7 +7,7 @@
 
     <div class="container wow fadeIn" data-wow-delay="400ms" >
       <div class="col-md-12 col-12">
-        <carousel class="legalitas-carousel" :responsive="{0:{items:1,nav:false},600:{items:2.4,nav:true},900:{items:3.7,nav:true}}" 
+        <carousel class="legalitas-carousel" :responsive="{0:{items:1,nav:false},600:{items:2.8,nav:true},900:{items:3.7,nav:true}}" 
           :center="false" :loop="true" :dots="false" :navText="navSlide" id="legal">
             <div class="item" :href="images[0]"  @click.prevent="show">
               <img class="ron img-fluid" :src="require ('@/assets/images/about us/legalitas-1.png')"/>
@@ -37,7 +37,7 @@
           :class="{ 'lightbox__arrow--invisible': !hasPrevious }"
         >
           <slot name="icon-previous">
-            <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <svg height="50" viewBox="0 0 24 24" width="50" xmlns="http://www.w3.org/2000/svg">
               <path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/>
               <path d="M0-.5h24v24H0z" fill="none"/>
             </svg>
@@ -56,7 +56,7 @@
           :class="{ 'lightbox__arrow--invisible': !hasNext }"
         >
           <slot name="icon-next">
-            <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <svg height="50" viewBox="0 0 24 24" width="50" xmlns="http://www.w3.org/2000/svg">
               <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/>
               <path d="M0-.25h24v24H0z" fill="none"/>
             </svg>
@@ -223,7 +223,7 @@
     right: 0;
     top: 0;
     padding: 1rem;
-    font-size: 2.5rem;
+    font-size: 3rem;
     cursor: pointer;
     color: #fff;
     z-index: 10;
@@ -231,7 +231,7 @@
     height: 5rem; */
   }
   .lightbox__close:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
   }
   .lightbox__arrow--invisible {
     visibility: hidden;
@@ -242,7 +242,7 @@
     height: fit-content;
   }
   .lightbox__arrow {
-    /* padding: 0 2rem; */
+    padding: 0 2rem;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -256,14 +256,14 @@
     flex: 1;
   }
   .lightbox__image img {
-    margin: 320px;
+    margin: 190px;
     /* width: 100%; */
     height: 50vw !important;
   }
 
   @media screen and (max-width: 1280px) {
     .lightbox__image img {
-      margin: 230px;
+      margin: 140px;
       /* width: 100%; */
       height: 50vw !important;
     }
@@ -271,7 +271,7 @@
 
   @media screen and (max-width: 1024px) {
     .lightbox__image img {
-      margin: 250px;
+      margin: 130px;
       /* width: 100%; */
       height: 55vw !important;
     }
@@ -279,7 +279,7 @@
 
   @media screen and (max-width: 769px) {
     .lightbox__image img {
-      margin: 160px;
+      margin: 65px;
       /* width: 100%; */
       height: 70vw !important;
     }
@@ -287,7 +287,7 @@
 
   @media screen and (max-width: 500px) {
     .lightbox__image img {
-      margin: 63px;
+      margin: 65px;
       /* width: 100%; */
       height: 100vw !important;
     }
@@ -303,7 +303,7 @@
 
   @media screen and (max-width: 350px) {
     .lightbox__image img {
-      margin: 46px;
+      margin: 50px;
       /* width: 100%; */
       height: 100vw !important;
     }
