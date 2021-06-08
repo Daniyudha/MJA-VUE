@@ -9,6 +9,7 @@
 <script>
 import Navbar2 from './components/Navbar2.vue'
 import Footer from './components/Footer.vue'
+// require('vue-image-lightbox/dist/vue-image-lightbox.min.css')
 
 export default {
   components: {

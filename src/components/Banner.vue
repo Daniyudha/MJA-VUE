@@ -26,3 +26,9 @@ export default {
     name: 'Banner'
 };
 </script>
+
+<style>
+a:hover{
+  text-decoration: none !important;
+}
+</style>
