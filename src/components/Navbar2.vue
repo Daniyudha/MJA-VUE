@@ -8,16 +8,22 @@
           </router-link>
       </b-navbar-brand>
 
-      <b-navbar-toggle target="nav-collapse" >
+      <!-- <b-navbar-toggle target="nav-collapse" >
         <div class="line1 ham"></div>
         <div class="line2 ham"></div>
         <div class="line3 ham"></div>
-      </b-navbar-toggle>
+      </b-navbar-toggle> -->
 
-      <b-collapse id="nav-collapse" is-nav>
+      <div v-b-toggle.sidebar-right class="mx-3 d-lg-none d-block">
+            <div class="side1 ham-side"></div>
+            <div class="side2 ham-side"></div>
+            <div class="side3 ham-side"></div>
+      </div>
+
+      <b-collapse id="nav-collapse" is-nav class="py-2">
         <b-navbar-nav>
           <ul class="nav navbar-nav">
-                      <li class="dropdown nav-item pl-3">
+                      <li class="dropdown nav-item pl-3 d-lg-block d-none">
                           <a class="nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tentang
                           Kami</a>
                           <ul class="dropdown">
@@ -29,7 +35,7 @@
                           </li>
                           </ul>
                       </li>
-                      <li class="dropdown nav-item pl-3">
+                      <li class="dropdown nav-item pl-3 d-lg-block d-none">
                           <a class="nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Business
                           Plan</a>
                           <ul class="dropdown">
@@ -41,46 +47,73 @@
                           </li>
                           </ul>
                       </li>
+
+                      <li class="px-2 nav-item d-lg-none d-block">
+                          <router-link to="/company" class="nav-link">Profil Perusahaan</router-link>
+                      </li>
+                      <li class="px-2 nav-item d-lg-none d-block">
+                          <router-link to="/legalitas" class="nav-link">Legalitas</router-link>
+                      </li><li class="px-2 nav-item d-lg-none d-block">
+                          <router-link to="/marketing" class="nav-link">Marketing Plan</router-link>
+                      </li><li class="px-2 nav-item d-lg-none d-block">
+                          <router-link to="/kodeetik" class="nav-link">Kode Etik</router-link>
+                      </li>
+
                       <li class="px-2 nav-item">
                           <router-link to="/produk" class="nav-link">Produk</router-link>
                       </li>
                       <li class="px-2 nav-item">
                           <router-link to="/kontak" class="nav-link">Kontak Kami</router-link>
                       </li>
+                      <li class="nav-item d-lg-none mt-3 row px-4">
+                        <a class="btn-bg-ijo rounded py-2 px-4 mr-3" href="#">Masuk</a>
+                        <a class="btn-bg-putih rounded py-2 px-3" href="#">Bergabung</a>
+                      </li>
+                      <!-- <li class="nav-item  d-lg-none py-2">
+                        <a class="btn-bg-putih rounded py-2 px-3" href="#">Bergabung</a>
+                      </li> -->
                   </ul>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto align-items-center">
-          <li class="px-2 nav-item ">
+          <li class="nav-item d-lg-block d-none">
             <a class="nav-link" href="#">Masuk</a>
           </li>
-          <li>
+          <li class="d-lg-block d-none">
             <a class="btn-bg-putih rounded py-2 px-3" href="#">Bergabung</a>
           </li>
-          <div v-b-toggle.sidebar-right class="mx-3">
+          <div v-b-toggle.sidebar-right class="mx-3 d-lg-block d-none">
             <div class="side1 ham-side"></div>
             <div class="side2 ham-side"></div>
             <div class="side3 ham-side"></div>
           </div>
-          <b-sidebar id="sidebar-right" width="100%" bg-variant="info" shadow>
+        </b-navbar-nav>
+      </b-collapse>
+      </div>
+    </b-navbar>
+
+     <b-sidebar id="sidebar-right" width="100%" bg-variant="info" shadow>
             <div class="sidebar-inner">
-              <div class="row">
-                <div class="col-4">
+              <div class="row justify-content-center">
+                <div class="col-md-4 col-6">
                   <router-link to="/company" class="nav-sidebar">Tentang Kami</router-link>
-                  <router-link to="/marketing" class="nav-sidebar">Business Plan</router-link>
+                  <router-link to="/kodeetik" class="nav-sidebar">Kode Etik</router-link>
+                  <router-link to="/marketing" class="nav-sidebar">Marketing Plan</router-link>
                   <router-link to="/produk" class="nav-sidebar">Produk</router-link>
                   <router-link to="/kontak" class="nav-sidebar">Kontak Kami</router-link>
                   <router-link to="/gallery" class="nav-sidebar">Galeri</router-link>
-                  <router-link to="/download" class="nav-sidebar">Download</router-link>
+                  <router-link to="/artikel" class="nav-sidebar">Artikel</router-link>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 col-6">
                   <router-link to="/stokis" class="nav-sidebar">Stokis</router-link>
                   <router-link to="/masterstokis" class="nav-sidebar">Master Stokis</router-link>
                   <router-link to="/artikel" class="nav-sidebar">Artikel</router-link>
+                  <router-link to="/testimoni" class="nav-sidebar">Testimoni</router-link>
                   <router-link to="/login" class="nav-sidebar">Login Member</router-link>
+                  <router-link to="/download" class="nav-sidebar">Download</router-link>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 col-11 mt-5 mt-md-0">
                   <router-link to="/" class="navbar-brand">
                     <img :src="require('@/assets/images/beranda/logo-mja.svg')" alt="">
                   </router-link>
@@ -91,13 +124,9 @@
                   <p class="text-white mt-3">0821 5549 5119</p>
                 </div>
               </div>
-              <!-- <b-img src="https://picsum.photos/500/500/?image=54" fluid thumbnail></b-img> -->
             </div>
           </b-sidebar>
-        </b-navbar-nav>
-      </b-collapse>
-      </div>
-    </b-navbar>
+
   </header>
 </template>
 
@@ -175,17 +204,53 @@
   }
   @media (max-width: 500px) {
     header{
-      padding: 0px;
+      padding: 10px 0;
     }
   }
+
   header.sticky{
     padding: 0px;
     background: rgb(238, 238, 238) !important;
     box-shadow: 0 -5px 10px 0 rgb(116, 116, 116);
   }
+  
   @media (max-width: 800px) {
     header{
-      background: rgb(238, 238, 238);
+      background: transparent;
+    }
+    .sidebar-inner{
+      padding: 120px 50px;
+      align-items: center;
+    }
+  }
+  @media (max-width: 500px) {
+    .sidebar-inner{
+      padding: 70px 40px;
+      align-items: center;
+    }
+    .nav-sidebar {
+      display: block;
+      padding: 1rem 1rem;
+      color: #fff;
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 400px) {
+    .sidebar-inner{
+      padding: 60px 15px;
+      align-items: center;
+    }
+  }
+  @media (max-width: 340px) {
+    .sidebar-inner{
+      padding: 60px 0px;
+      align-items: center;
+    }
+    .nav-sidebar {
+      display: block;
+      padding: 1rem 1rem;
+      color: #fff;
+      font-size: 17px;
     }
   }
 </style>

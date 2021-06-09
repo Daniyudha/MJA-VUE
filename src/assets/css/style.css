@@ -29,6 +29,31 @@ ul li ul.dropdown li{
   display: block;
 }
 
+@media (max-width:800px) {
+  ul li ul.dropdown{
+    width: 200px;
+    border: none;
+    box-shadow: 0px 0px 8px -4px #6A6768;
+    border-radius: 8px;
+    background: #fff;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    padding: 0;
+    transition-duration: 0.6s;
+  }
+  ul li:hover ul.dropdown{
+    display: block;	/* Display the dropdown */
+    font-size: 13px;
+    letter-spacing: 1px;
+    transition-duration: 0.6s;
+  }
+  ul li ul.dropdown li{
+    display: block;
+  }
+}
+
 .-mt-n{
   margin-top: 0px;
 }
@@ -36,6 +61,12 @@ ul li ul.dropdown li{
 .navbar{
   padding: 5px 0;
   max-width: 100%;
+}
+
+@media (max-width:800px) {
+  .-mt-n{
+    margin-top: -70px;
+  }
 }
 
 @media (max-width:500px) {
@@ -270,29 +301,18 @@ ul li ul.dropdown li{
     font-size: 29px;
   }
   .sec-home{
-    margin-top: -450px;
+    margin-top: -400px;
     margin-bottom: 150px;
   }
   .sec-company{
-    margin-top: -450px;
+    margin-top: -400px;
     margin-bottom: 200px;
   }
 }
 
 @media (max-width:500px) {
   .sec-home{
-    margin-top: -650px;
-    margin-bottom: 80px;
-  }
-  .sec-company{
-    margin-top: -350px;
-    margin-bottom: 100px;
-  }
-}
-
-@media (max-width:400px) {
-  .sec-home{
-    margin-top: -600px;
+    margin-top: -580px;
     margin-bottom: 80px;
   }
   .sec-company{
@@ -300,13 +320,24 @@ ul li ul.dropdown li{
     margin-bottom: 100px;
   }
 }
-@media (max-width:330px) {
+
+@media (max-width:400px) {
   .sec-home{
-    margin-top: -550px;
+    margin-top: -530px;
     margin-bottom: 80px;
   }
   .sec-company{
     margin-top: -250px;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width:330px) {
+  .sec-home{
+    margin-top: -480px;
+    margin-bottom: 80px;
+  }
+  .sec-company{
+    margin-top: -200px;
     margin-bottom: 100px;
   }
 }
@@ -764,6 +795,9 @@ ul li ul.dropdown li{
     .hr-testi{
       margin-top: -68px;
     }
+    .-hr{
+      margin-top: -76px;
+    }
   }
 
   .text-abu{
@@ -1005,6 +1039,7 @@ ul li ul.dropdown li{
     width: 100px;
     height: 3px;
     background-color: #29BB89;
+    margin-left: 0px;
   }
 
   .khasiat-card {
@@ -1098,6 +1133,12 @@ ul li ul.dropdown li{
     }
     .card-berita{
       height: 500px;
+    }
+  }
+
+  @media (max-width:330px) {
+    .t-ban{
+      font-size: 26px;
     }
   }
 
@@ -1213,6 +1254,7 @@ ul li ul.dropdown li{
       border: 10px solid #000;
       border-radius: 1rem;
       /* height: 450px; */
+      margin: 300px !important;
     }
   }
 
@@ -1340,6 +1382,11 @@ ul li ul.dropdown li{
   }
 
   @media (max-width:769px) {
+    .legalitas-carousel .owl-item {
+      padding: 30px 10px;
+      /* opacity: 0.6; */
+      transition: all .3s ease;
+    }
     .legalitas-carousel.owl-carousel{
       padding: 20px;
     }
@@ -1347,7 +1394,7 @@ ul li ul.dropdown li{
       height: 310px;
     }
     .sec-leg{
-      margin-top: -280px;
+      margin-top: -220px;
       z-index: 1;
     }
     .testi-carousel .item {
@@ -1359,21 +1406,25 @@ ul li ul.dropdown li{
   }
 
   @media (max-width:500px) {
+    .legalitas-carousel .owl-item {
+      padding: 30px 10px;
+      /* opacity: 0.6; */
+      transition: all .3s ease;
+    }
     .legalitas-carousel.owl-carousel{
       padding: 20px;
     }
     .legalitas-carousel .item {
-      background-color: transparent;
-      box-shadow: none;
-      border-radius: none;
-      margin-bottom: 200px;
-    }
-    .sec-leg{
-      margin-top: -250px;
-      z-index: 1;
+      background-color: #fff;
+      box-shadow: 0px 0px 10px 0px rgba(56, 51, 64, 0.15);
+      border-radius: 15px;
     }
     .legalitas-carousel .item {
-      height: 230px;
+      height: 500px;
+    }
+    .sec-leg{
+      margin-top: -180px;
+      z-index: 1;
     }
     .l-t{
       font-size: 26px;
@@ -1410,17 +1461,16 @@ ul li ul.dropdown li{
       padding: 20px;
     }
     .legalitas-carousel .item {
-      background-color: transparent;
-      box-shadow: none;
-      border-radius: none;
-      margin-bottom: 150px;
-    }
-    .sec-leg{
-      margin-top: -200px;
-      z-index: 1;
+      background-color: #fff;
+      box-shadow: 0px 0px 10px 0px rgba(56, 51, 64, 0.15);
+      border-radius: 15px;
     }
     .legalitas-carousel .item {
-      height: 180px;
+      height: 425px;
+    }
+    .sec-leg{
+      margin-top: -150px;
+      z-index: 1;
     }
     .testi-carousel .item {
       height: 310px;
@@ -1429,17 +1479,16 @@ ul li ul.dropdown li{
 
   @media (max-width:330px) {
     .sec-leg{
-      margin-top: -170px;
+      margin-top: -120px;
       z-index: 1;
     }
     .legalitas-carousel .item {
-      background-color: transparent;
-      box-shadow: none;
-      border-radius: none;
-      margin-bottom: 140px;
+      background-color: #fff;
+      box-shadow: 0px 0px 10px 0px rgba(56, 51, 64, 0.15);
+      border-radius: 15px;
     }
     .legalitas-carousel .item {
-      height: 135px;
+      height: 340px;
     }
     .testi-carousel .item {
       height: 350px;
@@ -1664,8 +1713,14 @@ section.imageContainer {
   margin-bottom: 120px;
 }
 
+.sec-gallery{
+  margin-top: -600px;
+  z-index: 1;
+  margin-bottom: 120px;
+}
+
 .mt-bg{
-  margin-left: 50px;
+  margin-left: 15px;
   max-width: 100%;
   height: auto;
 }
@@ -1689,9 +1744,14 @@ section.imageContainer {
     margin-bottom: 0px;
   }
   .sec-produk{
-    margin-top: -600px;
+    margin-top: -560px;
     z-index: 1;
-    margin-bottom: 160px;
+    margin-bottom: 100px;
+  }
+  .sec-gallery{
+    margin-top: -530px;
+    z-index: 1;
+    margin-bottom: 120px;
   }
 }
 
@@ -1702,8 +1762,8 @@ section.imageContainer {
     height: auto;
   }
   .sec-kontak{
-    margin-top: -350px;
-    margin-bottom: 80px;
+    margin-top: -260px;
+    margin-bottom: 200px;
   }
   .sec-galerislider{
     margin-top: -310px;
@@ -1714,9 +1774,14 @@ section.imageContainer {
     margin-bottom: 0px;
   }
   .sec-produk{
-    margin-top: -490px;
+    margin-top: -440px;
     z-index: 1;
     margin-bottom: 160px;
+  }
+  .sec-gallery{
+    margin-top: -430px;
+    z-index: 1;
+    margin-bottom: 120px;
   }
 }
 
@@ -1728,21 +1793,26 @@ section.imageContainer {
     height: auto;
   }
   .sec-kontak{
-    margin-top: -410px;
+    margin-top: -350px;
     margin-bottom: 70px;
   }
   .sec-galerislider{
-    margin-top: -230px;
+    margin-top: -200px;
     margin-bottom: -150px;
   }
   .sec-stokis{
-    margin-top: -410px;
+    margin-top: -350px;
     margin-bottom: 0px;
   }
   .sec-produk{
-    margin-top: -490px;
+    margin-top: -400px;
     z-index: 1;
     margin-bottom: 130px;
+  }
+  .sec-gallery{
+    margin-top: -420px;
+    z-index: 1;
+    margin-bottom: 120px;
   }
 }
 
@@ -1757,22 +1827,27 @@ section.imageContainer {
     height: auto;
   }
   .sec-kontak{
-    margin-top: -340px;
+    margin-top: -300px;
     margin-bottom: 70px;
     margin-left: 20px;
   }
   .sec-galerislider{
-    margin-top: -200px;
+    margin-top: -150px;
     margin-bottom: -100px;
   }
   .sec-stokis{
-    margin-top: -340px;
+    margin-top: -290px;
     margin-bottom: 0px;
   }
   .sec-produk{
-    margin-top: 0px;
+    margin-top: -420px;
     z-index: 1;
     margin-bottom: 80px;
+  }
+  .sec-gallery{
+    margin-top: -350px;
+    z-index: 1;
+    margin-bottom: 120px;
   }
   .my-madu{
     margin-top: 250px;
@@ -1788,17 +1863,27 @@ section.imageContainer {
     height: auto;
   }
   .sec-kontak{
-    margin-top: -300px;
+    margin-top: -250px;
     margin-bottom: 70px;
     margin-left: 0px;
   }
   .sec-galerislider{
-    margin-top: -150px;
+    margin-top: -120px;
     margin-bottom: -100px;
   }
   .sec-stokis{
-    margin-top: -300px;
+    margin-top: -240px;
     margin-bottom: 0px;
+  }
+  .sec-produk{
+    margin-top: -365px;
+    z-index: 1;
+    margin-bottom: 80px;
+  }
+  .sec-gallery{
+    margin-top: -300px;
+    z-index: 1;
+    margin-bottom: 120px;
   }
   .list-d{
     font-size: 14px;
@@ -1813,17 +1898,27 @@ section.imageContainer {
     height: auto;
   }
   .sec-kontak{
-    margin-top: -260px;
+    margin-top: -200px;
     margin-bottom: 70px;
     margin-left: 0px;
   }
   .sec-galerislider{
-    margin-top: -120px;
+    margin-top: -100px;
     margin-bottom: -130px;
   }
   .sec-stokis{
-    margin-top: -260px;
+    margin-top: -200px;
     margin-bottom: 0px;
+  }
+  .sec-produk{
+    margin-top: -308px;
+    z-index: 1;
+    margin-bottom: 80px;
+  }
+  .sec-gallery{
+    margin-top: -250px;
+    z-index: 1;
+    margin-bottom: 120px;
   }
   .t-g{
     font-size: 26px;

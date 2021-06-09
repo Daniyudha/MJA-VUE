@@ -1,19 +1,19 @@
 <template>
     <div class="produk">
         <!-- Background -->
-        <div class="z offset-lg-6 col-lg-6 offset-md-4 col-md-8 -mt-n d-none d-md-block wow fadeInRight">
+        <div class="z offset-lg-6 col-lg-6 offset-md-4 col-md-8 -mt-n  wow fadeInRight">
             <img class="mt-bg" :src="require ('@/assets/images/beranda/bg-section-1.png')" alt="">
         </div>
 
         <!-- START HERO -->
         <div class="container sec-produk">
             <div class="row align-items-center">
-                <div class="col-lg-5 col-md-5 mt-5 wow fadeInLeft" data-wow-delay="200ms">
-                    <img class="img-fluid" :src="require ('@/assets/images/produk/ilus-produk-header.png')" alt="">
+                <div class="col-lg-5 col-md-6 wow fadeInLeft" data-wow-delay="200ms">
+                    <img class="img-fluid" :src="require ('@/assets/images/produk/ilus-produk-header-remove.png')" alt="">
                 </div>
-                <div class="col-lg-6 col-md-6 offset-1">
+                <div class="col-lg-6 col-md-6 offset-lg-1">
                     <div class="">
-                        <h1 class="t-home wow fadeInRight" data-wow-delay="400ms">Produk- Produk MLM <br> Makin Jaya Agung</h1>
+                        <h1 class="t-home wow fadeInRight" data-wow-delay="400ms">Produk-Produk MLM <br> Makin Jaya Agung</h1>
                         <p class="text-abumuda wow fadeInRight" data-wow-delay="600ms">"Dapatkan penghasilan impian anda yang tak terhingga dengan mempelajari
                             JURUS AJAIB
                             jaman now yang akan
@@ -103,8 +103,8 @@
         </div>
 
         <div class="container">
-            <div class="row mt-section-2 align-items-center justify-content-center">
-                <div class="col-lg-6 offset-lg-1 col-md-6 col-10 mb-5 wow fadeInLeft">
+            <div class="row mt-section align-items-center justify-content-center">
+                <div class="col-lg-6 offset-lg-1 col-md-6 col-12 mb-5 wow fadeInLeft">
                     <img class="img-fluid" :src="require ('@/assets/images/produk/sabun-gaharu.png')" alt="">
                 </div>
                 <div class="col-lg-5 col-md-6 col-12">

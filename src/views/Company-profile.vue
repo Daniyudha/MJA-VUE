@@ -28,8 +28,8 @@
         <!-- START PROFIL PERUSAHAAN -->
         <div class="container -mt-section">
             <h1 class="wow fadeInDown">PROFIL PERUSAHAAN</h1>
-            <hr class="garis float-left wow fadeInUp">
-            <div class="row mt-5">
+            <hr class="garis wow fadeInUp">
+            <div class="row mt-5 align-items-center">
                 <div class="col-lg-4 col-md-5 wow fadeInLeft" data-wow-delay="300ms">
                     <img class="img-fluid" :src="require('@/assets/images/about us/image-section-2.png')" alt="">
                 </div>

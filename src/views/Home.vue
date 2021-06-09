@@ -413,7 +413,7 @@
     </div>
     <!-- end responsive -->
   </div>
-  <hr class="-j d-lg-none d-md-none d-block">
+  <hr class="-hr d-lg-none d-md-none d-block">
   <!-- END BERITA & ARTIKEL -->
 
   <!-- Backgroung 5-6 -->

@@ -27,7 +27,7 @@
             </div>
             
             <section class="sec-galerislider" slot="preview" slot-scope="{ show }" @click="show">
-              <carousel class="stack-carousel" :responsive="{0:{items:1.3,nav:false},600:{items:2,nav:false},900:{items:4,nav:true}}" 
+              <carousel class="stack-carousel" :responsive="{0:{items:1.3,nav:false,dots:true},600:{items:2,nav:false},900:{items:4,nav:true}}" 
                   :center="true" :loop="true" :dots="false" :navText="navSlide" id="legal">
                   <div class="item">
                       <img class="img-fluid" :src="require ('@/assets/images/gallery/video-thumbnail-1.png')"/>
@@ -72,6 +72,7 @@ import Banner from '../components/Banner.vue'
             require("@/assets/images/gallery/video-thumbnail-1.png"),
             require("@/assets/images/gallery/video-thumbnail-2.png"),
             require("@/assets/images/gallery/video-thumbnail-4.png"),
+            "https://youtu.be/N-WGxQQo4cA"
         ],
         navSlide: [
           '<i class="legalitas-nav legalitas-prev fas fa-chevron-left"></i>',

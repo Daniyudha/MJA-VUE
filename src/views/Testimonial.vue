@@ -6,7 +6,7 @@
         </div>
 
         <!-- START TESTI CAROUSAL -->
-        <div class="container sec-leg">
+        <div class="container sec-stokis">
             <div class="text-center">
                 <h2 class="font-weight-bold l-s wow fadeInDown" data-wow-delay="200ms">TESTIMONIAL</h2>
                 <h4 class="text-abumuda wow fadeInDown" data-wow-delay="400ms">MENURUT YANG SUDAH MENGGUNAKAN PRODUK KAMI</h4>

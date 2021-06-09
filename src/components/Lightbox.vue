@@ -4,21 +4,20 @@
       <!-- <a v-if="thumbnail" :href="images[0]" target="_blank" @click.prevent="show" class="lightbox__thumbnail">
         <img :src="thumbnail" :alt="alternateText">
       </a> -->
-
       <div class="container wow fadeIn" data-wow-delay="400ms" >
         <div class="col-md-12 col-12">
-          <carousel class="legalitas-carousel" :responsive="{0:{items:1,nav:false},600:{items:2.8,nav:true},900:{items:3.7,nav:true}}" 
+          <carousel class="legalitas-carousel" :responsive="{0:{items:1,center:true,nav:false},600:{items:2.8,nav:true},900:{items:3.7,nav:true}}" 
             :center="false" :loop="true" :dots="false" :navText="navSlide" id="legal">
               <div class="item" :href="images[0]"  @click.prevent="show">
                 <img class="ron img-fluid" :src="require ('@/assets/images/about us/legalitas-1.png')"/>
               </div>
-              <div class="item" :href="images[0]"  @click.prevent="show">
+              <div class="item" :href="images[1]"  @click.prevent="show">
                 <img class="ron img-fluid" :src="require ('@/assets/images/about us/legalitas-2.png')"/>
               </div>
-              <div class="item" :href="images[0]"  @click.prevent="show">
+              <div class="item" :href="images[2]"  @click.prevent="show">
                 <img class="ron img-fluid" :src="require ('@/assets/images/about us/legalitas-3.png')"/>
               </div>
-              <div class="item" :href="images[0]"  @click.prevent="show">
+              <div class="item" :href="images[3]"  @click.prevent="show">
                 <img class="ron img-fluid" :src="require ('@/assets/images/about us/legalitas-4.png')"/>
               </div>
           </carousel>

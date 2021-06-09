@@ -33,7 +33,7 @@
 
                 <div id="carrousel">
                     <div class="col-md-12">
-                        <carousel class="artikel-carousel" :responsive="{0:{items:1,nav:false},600:{items:1,nav:true},900:{items:1,nav:true}}" 
+                        <carousel class="artikel-carousel" :responsive="{0:{items:1,nav:false,dots:true},600:{items:1,nav:true},900:{items:1,nav:true}}" 
                             :center="false" :loop="true" :dots="false" :navText="navSlide" id="legal">
 
                             <div class="item">

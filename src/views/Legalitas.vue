@@ -6,14 +6,13 @@
         </div>
 
         <!-- START PLAN -->
-        <section class="legalitas">
+        
             <div class="container sec-leg">
                 <div class="text-left">
                   <h1 class="l-t wow fadeInLeft">Legalitas</h1>
-                <hr class="garis float-left wow fadeInUp">
+                  <hr class="garis wow fadeInUp">
                 </div>
             </div>
-        </section>
         <!-- END PLAN -->
 
         
@@ -84,6 +83,6 @@ import Banner from '../components/Banner.vue'
     /* height: 100px;
     width: 100px; */
     /* margin-top: -100px; */
-    margin-bottom: 100px;
+    margin-bottom: 0px;
   }
 </style>

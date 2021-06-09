@@ -8,8 +8,8 @@
         <!-- START KODE ETIK -->
         <div class="container sec-leg">
             <div class="text-center">
-                    <h2 class="font-weight-bold l-s wow fadeInDown" data-wow-delay="200ms">KODE ETIK</h2>
-                    <h3 class="text-abumuda wow fadeInDown" data-wow-delay="400ms">PT. MAKIN JAYA AGUNG</h3>
+                <h2 class="font-weight-bold l-s t-g wow fadeInDown" data-wow-delay="200ms">KODE ETIK</h2>
+                <h3 class="text-abumuda t-g-d wow fadeInDown" data-wow-delay="400ms">PT. MAKIN JAYA AGUNG</h3>
             </div>
 
             <VueSlickCarousel class=""

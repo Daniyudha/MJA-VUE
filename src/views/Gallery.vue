@@ -6,7 +6,7 @@
         </div>
 
         <!-- START KONTEN -->
-        <section class=" sec-leg">
+        <section class=" sec-gallery">
             <div class="container">
                 <div class="text-center mt-5 mb-5">
                     <h2 class="text-kuning font-weight-bold t-g wow fadeInDown" data-wow-delay="100ms">GALERI FOTO & VIDEO</h2>
