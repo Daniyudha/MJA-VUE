@@ -207,6 +207,8 @@ ul li ul.dropdown li{
     background-color: #29BB89;
     box-shadow: 0px 0px 8px -4px #6A6768;
     transition-duration: 0.6s;
+    z-index: 1;
+    position: relative;
   }
   
   .btn-bg-ijo:hover {
@@ -518,7 +520,7 @@ ul li ul.dropdown li{
       height: 50px;
     }
     .card-carousel .owl-item {
-      padding: 50px 0px;
+      padding: 0px 0px;
       transition: all .3s ease;
     }
     
@@ -528,7 +530,7 @@ ul li ul.dropdown li{
     
     .card-carousel .item {
       position: relative;
-      padding: 20px;
+      padding: 0px 20px;
       width: 100%;
     }
     .-mt-profil{
@@ -723,7 +725,10 @@ ul li ul.dropdown li{
   }
 
   .hr-testi{
-    margin-top: -103px;
+    margin-top: -13.5px;
+    height: 2px;
+    background: #D6D6D6;
+    display: block;
   }
 
   @media (max-width:1025px) {
@@ -793,10 +798,16 @@ ul li ul.dropdown li{
       width: auto;
     }
     .hr-testi{
-      margin-top: -68px;
+      margin-top: -13.4px;
+      height: 2px;
+      background: #D6D6D6;
+      display: block;
     }
     .-hr{
-      margin-top: -76px;
+      margin-top: -62px;
+      height: 2px;
+      background: #D6D6D6;
+      display: block;
     }
   }
 
@@ -2005,7 +2016,7 @@ section.imageContainer {
 }
 
 .testi-home-carousel .owl-item {
-  padding: 40px 40px;
+  padding: 0px 10px;
   transition: all .3s ease;
   text-align: center;
 }
@@ -2056,7 +2067,7 @@ section.imageContainer {
 
 .slick-prev:before,
 .slick-next:before {
-  padding: 15px 20px;
+  padding: 15px 15px;
   border-radius: 100%;
   color: white;
   background-color: #29BB89;
@@ -2302,9 +2313,10 @@ section.imageContainer {
 
 .pg li:hover ,
 .pg a:hover{
-  background-color: #29BB89;
+  background-color: #21d697;
   border-radius: 100%;
   color: #fff;
+  box-shadow: 0px 0px 8px -4px #ffffff;
 }
 
 .mt-6{

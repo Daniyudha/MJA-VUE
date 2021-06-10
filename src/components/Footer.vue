@@ -7,7 +7,7 @@
                     <h5>DOWNLOAD</h5>
                     <ul class="list-unstyled text-small list-foot">
                         <li><router-link to="/download">Download</router-link></li>
-                        <li><a href="#">Lorem Ipsum</a></li>
+                        <li><a href="/test">Lorem Ipsum</a></li>
                         <li><a href="#">Lorem</a></li>
                     </ul>
                 </div>

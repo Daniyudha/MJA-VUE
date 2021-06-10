@@ -110,9 +110,9 @@
           }
         </style> -->
         <!-- Responsive -->
-        <div class="d-lg-none d-md-none d-block">
-          <carousel class="card-carousel" :responsive="{0:{items:1,nav:false},600:{items:2.4,nav:true}}" 
-            :center="true" :loop="true" :dots="false" :navText="navSlide">
+        <div class="d-lg-none d-md-none d-block mt-5">
+          <carousel class="card-carousel" :responsive="{0:{items:1,nav:false}}" 
+            :center="true" :loop="true" :dots="true" :navText="navSlide">
               <div class="item">
                   <div class="mb-4">
                       <div class="card-pt">
@@ -133,7 +133,6 @@
                             </div>
                           </div>
                       </div>
-                      <hr class="ijo" />
                   </div>
               </div>
               <div class="item">
@@ -155,7 +154,6 @@
                               </div>
                           </div>
                       </div>
-                      <hr class="ijo" />
                   </div>
               </div>
               <div class="item">
@@ -177,14 +175,13 @@
                         </div>
                       </div>
                   </div>
-                  <hr class="ijo" />
                   </div>
               </div>
           </carousel>
         </div>
       <!-- end responsive -->
     </div>
-    <hr class="-j d-lg-none d-md-none d-block mb-5" />
+    <hr class="hr-testi d-lg-none d-md-none d-block mb-5" />
     <!-- END PT MAKIN JAYA -->
 
     <!-- Background -->
@@ -278,30 +275,35 @@
         <h1>Testimoni</h1>
     </div>
     <carousel class="testi-home-carousel" :responsive="{0:{items:1,nav:false},600:{items:1,nav:true},900:{items:1,nav:true}}" 
-                  :center="true" :loop="true" :dots="false" :navText="navSlide" id="legal">
+        :center="true" :loop="true" :dots="true" :navText="navSlide" id="legal">
 
       <div class="item">
-        <!-- <div class="text-center mt-4"> -->
-                <img :src="require ('@/assets/images/beranda/testimoni-icon.svg')" alt="">
-                <p class="text-abumuda mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                  porttitordapibus dictum.
-                  Fusce faucibus ligula scelerisque, eleifend turpis in</p>
-                <img :src="require ('@/assets/images/testimoni/4.png')" alt="" class="center-block team">
-                <hr class="ijo">
-              <!-- </div> -->
+        <img :src="require ('@/assets/images/beranda/testimoni-icon.svg')" alt="">
+          <p class="text-abumuda mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            porttitordapibus dictum.
+            Fusce faucibus ligula scelerisque, eleifend turpis in</p>
+          <img :src="require ('@/assets/images/testimoni/4.png')" alt="" class="center-block team">
       </div>
 
       <div class="item">
-                <img :src="require ('@/assets/images/beranda/testimoni-icon.svg')" alt="">
-                <p class="text-abumuda mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                  porttitordapibus dictum.
-                  Fusce faucibus ligula scelerisque, eleifend turpis in</p>
-                <img :src="require ('@/assets/images/testimoni/4.png')" alt="" class="center-block team">
-                <hr class="ijo">
+        <img :src="require ('@/assets/images/beranda/testimoni-icon.svg')" alt="">
+          <p class="text-abumuda mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            porttitordapibus dictum. Fusce faucibus ligula scelerisque, eleifend turpis in</p>
+          <img :src="require ('@/assets/images/testimoni/4.png')" alt="" class="center-block team">
+      </div>
+
+      <div class="item">
+        <img :src="require ('@/assets/images/beranda/testimoni-icon.svg')" alt="">
+          <p class="text-abumuda mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            porttitordapibus dictum. Fusce faucibus ligula scelerisque, eleifend turpis in</p>
+          <img :src="require ('@/assets/images/testimoni/4.png')" alt="" class="center-block team">
       </div>
     </carousel>
   </div>
   <hr class="hr-testi">
+  <div class="mt-5 text-center wow fadeInLeft" data-wow-delay="300ms">
+    <a class="btn-bg-ijo rounded-15 py-2 px-4" href="/testimonial">Testimoni Lainnya</a>
+  </div>
   <!-- END TESTIMONI -->
 
   <!-- Backgroung 4-5 -->
@@ -358,9 +360,9 @@
     </div>
 
     <!-- Responsive -->
-    <div class="d-lg-none d-md-none d-block">
-        <carousel class="testi-home-carousel" :responsive="{0:{items:1,nav:false},600:{items:1,nav:true},900:{items:1,nav:true}}" 
-          :center="false" :loop="true" :dots="false" :navText="navSlide" id="legal">
+    <div class="d-lg-none d-md-none d-block mt-5">
+        <carousel class="testi-home-carousel" :responsive="{0:{items:1,nav:false}}" 
+          :center="false" :loop="true" :dots="true" :navText="navSlide" id="legal">
           <div class="item">
             <div class="mb-4">
               <div class="card-berita">
@@ -374,7 +376,6 @@
                   </div>
                 </div>
               </div>
-              <hr class="ijo">
             </div>
           </div>
           <div class="item">
@@ -390,7 +391,6 @@
                   </div>
                 </div>
               </div>
-              <hr class="ijo">
             </div>
           </div>
           <div class="item">
@@ -406,14 +406,13 @@
                   </div>
                 </div>
               </div>
-              <hr class="ijo">
             </div>
           </div>
         </carousel>
     </div>
     <!-- end responsive -->
   </div>
-  <hr class="-hr d-lg-none d-md-none d-block">
+  <hr class="hr-testi d-lg-none d-md-none d-block mb-5" />
   <!-- END BERITA & ARTIKEL -->
 
   <!-- Backgroung 5-6 -->
@@ -479,10 +478,10 @@
 
     <!-- Responsive -->
     <!-- <div class="container"> -->
-    <div class="container d-lg-none d-md-none d-block ">
+    <div class="container d-lg-none d-md-none d-block mb-5">
       <h3 class="text-center">Customer Service Support</h3>
-      <carousel class="card-carousel" :responsive="{0:{items:1,nav:false},600:{items:2.4,nav:true}}" 
-        :center="true" :loop="true" :dots="false" :navText="navSlide" :nav="true">
+      <carousel class="card-carousel mt-5" :responsive="{0:{items:1,nav:false}}" 
+        :center="true" :loop="true" :dots="true" :navText="navSlide" :nav="true">
         <div class="item">
           <div class="mb-4">
             <div class="card-support">
@@ -499,7 +498,6 @@
                 </div>
               </div>
             </div>
-            <hr class="ijo">
           </div>
         </div>
         <div class="item">
@@ -518,7 +516,6 @@
                 </div>
               </div>
             </div>
-            <hr class="ijo">
           </div>
         </div>
         <div class="item">
@@ -537,14 +534,12 @@
                 </div>
               </div>
             </div>
-            <hr class="ijo">
           </div>
         </div>
       </carousel>
     </div>
-    <!-- </div> -->
     <!-- end responsive -->
-    <hr class="-j d-lg-none d-md-none d-block mb-5">
+    <hr class="-hr d-lg-none d-md-none d-block mb-5" />
   </section>
   <!-- END CUSTOMER SERVICE -->
 
@@ -584,4 +579,17 @@ export default {
     display: initial;
     width: auto;
   }
+  .owl-theme .owl-dots .owl-dot span {
+    width: 90px;
+    height: 2px;
+    margin: 5px 0px;
+    background: #D6D6D6;
+    display: block;
+    /* -webkit-backface-visibility: visible; */
+    transition: opacity 200ms ease;
+    border-radius: 0px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #29BB89;
+}
 </style>

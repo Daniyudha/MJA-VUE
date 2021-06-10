@@ -104,7 +104,7 @@
 
         <div class="container">
             <div class="row mt-section align-items-center justify-content-center">
-                <div class="col-lg-6 offset-lg-1 col-md-6 col-12 mb-5 wow fadeInLeft">
+                <div class="col-lg-6 offset-lg-1 col-md-6 col-12 mb-5 mt-5 wow fadeInLeft">
                     <img class="img-fluid" :src="require ('@/assets/images/produk/sabun-gaharu.png')" alt="">
                 </div>
                 <div class="col-lg-5 col-md-6 col-12">

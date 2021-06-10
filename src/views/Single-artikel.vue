@@ -71,7 +71,7 @@
         <div class="container">
             <h3 class="font-weight-bold wow fadeInDown">ARTIKEL HARI INI</h3>
 
-            <carousel class="single-carousel" :responsive="{0:{items:1,nav:false},600:{items:1,nav:true},900:{items:1,nav:true}}" 
+            <carousel class="single-carousel" :responsive="{0:{items:1,nav:false, dots:true},600:{items:2,nav:true},900:{items:3,nav:true}}" 
                             :center="false" :loop="true" :dots="false" :navText="navSlide" id="legal">
 
                 <div class="item">

@@ -355,7 +355,7 @@
         </div>
         <!-- END TESTIMONIAL -->
 
-        <div class="container">
+        <div class="container mt-3">
             <div class="text-center wow fadeInUp" data-wow-delay="800ms">
                 <ul class="pg">
                     <li>
@@ -382,8 +382,14 @@
 
 
         <!-- Background -->
-        <div class="float-right z -mt-section-2 wow fadeInUp">
+        <div class="float-right z aksen wow fadeInUp">
             <img class="" :src="require ('@/assets/images/testimoni/bg-section-5.png')" alt="">
         </div>
     </div>
 </template>
+
+<style scoped>
+.aksen{
+    margin-top: -220px;
+}
+</style>
