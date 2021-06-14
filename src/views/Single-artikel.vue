@@ -15,10 +15,10 @@
                         <p class="text-muted">SENIN, 5 APRIL 2021 10:20 WIB</p>
                     </div>
                     <div class="col-lg-3 col-md-3 col-10">
-                        <span class="fab fa-facebook-square mx-2"></span>
-                        <span class="fab fa-twitter mx-2"></span>
-                        <span class="fab fa-whatsapp mx-2"></span>
-                        <span class="fa fa-link mx-2"></span>
+                        <a href="#" class="sosmed"><span class="fab fa-facebook-square mx-2"></span></a>
+                        <a href="#" class="sosmed"><span class="fab fa-twitter mx-2"></span></a>
+                        <a href="#" class="sosmed"><span class="fab fa-whatsapp mx-2"></span></a>
+                        <a href="#" class="sosmed"><span class="fa fa-link mx-2"></span></a>
                     </div>
                 </div>
                 <div>
@@ -71,8 +71,8 @@
         <div class="container">
             <h3 class="font-weight-bold wow fadeInDown">ARTIKEL HARI INI</h3>
 
-            <carousel class="single-carousel" :responsive="{0:{items:1,nav:false, dots:true},600:{items:2,nav:true},900:{items:3,nav:true}}" 
-                            :center="false" :loop="true" :dots="false" :navText="navSlide" id="legal">
+            <carousel class="single-carousel" :responsive="{0:{items:1,nav:false,autoplay:true,autoplayTimeout:3000},600:{items:2,nav:true},900:{items:3,nav:true}}" 
+                            :center="false" :loop="true" :dots="false"  :navText="navSlide" id="legal">
 
                 <div class="item">
                     <div class="card-artikel-out">
@@ -80,12 +80,11 @@
                             <div class="img-container">
                                 <img class="rounded-15 img-fluid mb-5"
                                     :src="require ('@/assets/images/artikel/kemnaker-dorong-calon-pekerja.png')" alt="">
-                                <!-- <h6 class="font-weight-bold mt-3">Kemnaker dorong Calon Pekerja Migran dapat kuota Kartu Prakerja 2021</h6> -->
                                 <div class="img-caption bottom-top mt-2">
                                     <a href="">
                                         <h3 class="font-weight-bold">Kemnaker dorong Calon Pekerja Migran dapat kuota
                                             Kartu Prakerja 2021</h3>
-                                        <p class="text-abumuda">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
+                                        <p class="text-abumuda d-none d-md-block">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
                                             Kartu Prakerja 2021.
                                             Selain itu Kemenker memberikan berbagai jenis seminar untuk pemegang Kartu
                                             Prakerja 2021.</p>
@@ -114,12 +113,11 @@
                             <div class="img-container">
                                 <img class="rounded-15 img-fluid mb-5"
                                     :src="require ('@/assets/images/artikel/akhirnya-facebook-bersedia.png')" alt="">
-                                <!-- <h6 class="font-weight-bold mt-3">Kemnaker dorong Calon Pekerja Migran dapat kuota Kartu Prakerja 2021</h6> -->
                                 <div class="img-caption bottom-top mt-2">
                                     <a href="">
                                         <h3 class="font-weight-bold">Akhirnya Facebook Bersedia membayar berita di Australia
                                         </h3>
-                                        <p class="text-abumuda">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
+                                        <p class="text-abumuda d-none d-md-block">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
                                             Kartu Prakerja 2021.
                                             Selain itu Kemenker memberikan berbagai jenis seminar untuk pemegang Kartu
                                             Prakerja 2021.</p>
@@ -147,11 +145,10 @@
                             <div class="img-container">
                                 <img class="rounded-15 img-fluid mb-5"
                                     :src="require ('@/assets/images/artikel/tangapi-akselerasi-perubahan.png')" alt="">
-                                <!-- <h6 class="font-weight-bold mt-3">Kemnaker dorong Calon Pekerja Migran dapat kuota Kartu Prakerja 2021</h6> -->
                                 <div class="img-caption bottom-top mt-2">
                                     <a href="">
                                         <h3 class="font-weight-bold">Tanggapi Akselerasi Perubahan dengan Perubahan SDM</h3>
-                                        <p class="text-abumuda">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
+                                        <p class="text-abumuda d-none d-md-block">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
                                             Kartu Prakerja 2021.
                                             Selain itu Kemenker memberikan berbagai jenis seminar untuk pemegang Kartu
                                             Prakerja 2021.</p>
@@ -179,12 +176,11 @@
                             <div class="img-container">
                                 <img class="rounded-15 img-fluid mb-5" :src="require ('@/assets/images/artikel/kondisi-makin-parah.png')"
                                     alt="">
-                                <!-- <h6 class="font-weight-bold mt-3">Kemnaker dorong Calon Pekerja Migran dapat kuota Kartu Prakerja 2021</h6> -->
                                 <div class="img-caption bottom-top mt-2">
                                     <a href="">
                                         <h3 class="font-weight-bold">Kondisi makin parah di Myanmar saat Pabrik-pabrik China
                                             dijarah</h3>
-                                        <p class="text-abumuda">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
+                                        <p class="text-abumuda d-none d-md-block">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
                                             Kartu Prakerja 2021.
                                             Selain itu Kemenker memberikan berbagai jenis seminar untuk pemegang Kartu
                                             Prakerja 2021.</p>
@@ -212,11 +208,10 @@
                             <div class="img-container">
                                 <img class="rounded-15 img-fluid mb-5"
                                     :src="require ('@/assets/images/artikel/sudah-tahu-syarat-dapat-blt.png')" alt="">
-                                <!-- <h6 class="font-weight-bold mt-3">Kemnaker dorong Calon Pekerja Migran dapat kuota Kartu Prakerja 2021</h6> -->
                                 <div class="img-caption bottom-top mt-2">
                                     <a href="">
                                         <h3 class="font-weight-bold">Sudah tahu syarat dapat BLT UMKM 2021? cek di sini</h3>
-                                        <p class="text-abumuda">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
+                                        <p class="text-abumuda d-none d-md-block">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
                                             Kartu Prakerja 2021.
                                             Selain itu Kemenker memberikan berbagai jenis seminar untuk pemegang Kartu
                                             Prakerja 2021.</p>
@@ -244,13 +239,12 @@
                             <div class="img-container">
                                 <img class="rounded-15 img-fluid mb-5" :src="require ('@/assets/images/artikel/pantang-menyerah.png')"
                                     alt="">
-                                <!-- <h6 class="font-weight-bold mt-3">Kemnaker dorong Calon Pekerja Migran dapat kuota Kartu Prakerja 2021</h6> -->
                                 <div class="img-caption bottom-top mt-2">
                                     <a href="">
                                         <h3 class="font-weight-bold">Pantang Menyerah, Mantan Karyawan toko Sepatu Sukses
                                             jadi
                                             Bos Sepatu</h3>
-                                        <p class="text-abumuda">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
+                                        <p class="text-abumuda d-none d-md-block">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
                                             Kartu Prakerja 2021.
                                             Selain itu Kemenker memberikan berbagai jenis seminar untuk pemegang Kartu
                                             Prakerja 2021.</p>
@@ -277,13 +271,12 @@
                         <div class="card-body">
                             <div class="img-container">
                                 <img class="rounded-15 img-fluid mb-5" :src="require ('@/assets/images/artikel/waket-mpr.png')" alt="">
-                                <!-- <h6 class="font-weight-bold mt-3">Kemnaker dorong Calon Pekerja Migran dapat kuota Kartu Prakerja 2021</h6> -->
                                 <div class="img-caption bottom-top mt-2">
                                     <a href="">
                                         <h3 class="font-weight-bold">Waket MPR sebut ada 1.768 Hoax soal COVID-19 di 2.264
                                             akun
                                             Medsos</h3>
-                                        <p class="text-abumuda">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
+                                        <p class="text-abumuda d-none d-md-block">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
                                             Kartu Prakerja 2021.
                                             Selain itu Kemenker memberikan berbagai jenis seminar untuk pemegang Kartu
                                             Prakerja 2021.</p>
@@ -328,3 +321,4 @@ export default {
     },
 }
 </script>
+

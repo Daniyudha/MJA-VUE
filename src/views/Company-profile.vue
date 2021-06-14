@@ -62,7 +62,7 @@
         <!-- START VISI MISI -->
         <div class="container -mt-section">
             <h1 class="wow fadeInDown">VISI & MISI</h1>
-            <hr class="garis float-left wow fadeInUp">
+            <hr class="garis wow fadeInUp">
             <div class="row mt-5 align-items-center">
                 <div class="col-lg-8 col-md-6">
                     <h3 class="wow fadeInLeft" data-wow-delay="200ms">VISI MJA :</h3>

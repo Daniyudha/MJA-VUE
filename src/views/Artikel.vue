@@ -65,45 +65,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="col-2">
-                                                        <router-link class="link" to="/artikel"><i class="fas fa-external-link-alt"></i></router-link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="card-artikel">
-                                    <div class="card-body">
-                                        <div class="row align-items-center">
-                                            <div class="col-md-6">
-                                                <img class="img-fluid" :src="require ('@/assets/images/artikel/analisis-ahli.png')" alt="">
-                                            </div>
-                                            <div class="col-md-6 mt-md-0 mt-3">
-                                                <h5 class="font-weight-bold">Analisis Ahli soal isu Presiden 3 Periode dan
-                                                    Orang-orang Dekat Jokowi</h5>
-                                                <p class="text-abumuda text-justify mt-3 max-title">Jakarta - Kantor Staff
-                                                    Presiden curiga
-                                                    ada pihak yang akan menjerumuskan Presiden Joko Widodo ( Jokowi )
-                                                    melalui isu Jabatan Presiden 3 Periode. Pengamat politik Univesitas
-                                                    Al-Azhar...</p>
-                                                <div class="row align-items-center">
-                                                    <div class="col-10">
-                                                        <div class="row align-items-center">
-                                                            <div class="ml-3">
-                                                                <img class="img-fluid"
-                                                                    :src="require ('@/assets/images/artikel/rudi-khoirudin.png')" alt="">
-                                                            </div>
-                                                            <div class="ml-2">
-                                                                <p class="text-ijo my-1">Rudi Khoirudin</p>
-                                                                <p class="text-abumuda my-1">Rabu, 17 Mar 2021 04.30 WIB</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-2">
-                                                        <a href="" class="link">
+                                                        <a href="/single" class="link">
                                                             <i class="fas fa-external-link-alt"></i>
                                                         </a>
                                                     </div>
@@ -143,7 +105,47 @@
                                                         </div>
                                                     </div>
                                                     <div class="col-2">
-                                                        <a href="" class="link">
+                                                        <a href="/single" class="link">
+                                                            <i class="fas fa-external-link-alt"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="card-artikel">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <img class="img-fluid" :src="require ('@/assets/images/artikel/analisis-ahli.png')" alt="">
+                                            </div>
+                                            <div class="col-md-6 mt-md-0 mt-3">
+                                                <h5 class="font-weight-bold">Analisis Ahli soal isu Presiden 3 Periode dan
+                                                    Orang-orang Dekat Jokowi</h5>
+                                                <p class="text-abumuda text-justify mt-3 max-title">Jakarta - Kantor Staff
+                                                    Presiden curiga
+                                                    ada pihak yang akan menjerumuskan Presiden Joko Widodo ( Jokowi )
+                                                    melalui isu Jabatan Presiden 3 Periode. Pengamat politik Univesitas
+                                                    Al-Azhar...</p>
+                                                <div class="row align-items-center">
+                                                    <div class="col-10">
+                                                        <div class="row align-items-center">
+                                                            <div class="ml-3">
+                                                                <img class="img-fluid"
+                                                                    :src="require ('@/assets/images/artikel/rudi-khoirudin.png')" alt="">
+                                                            </div>
+                                                            <div class="ml-2">
+                                                                <p class="text-ijo my-1">Rudi Khoirudin</p>
+                                                                <p class="text-abumuda my-1">Rabu, 17 Mar 2021 04.30 WIB</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <a href="/single" class="link">
                                                             <i class="fas fa-external-link-alt"></i>
                                                         </a>
                                                     </div>
@@ -173,16 +175,15 @@
                             <div class="img-container">
                                 <img class="rounded-15 img-fluid mb-5"
                                     :src="require ('@/assets/images/artikel/kemnaker-dorong-calon-pekerja.png')" alt="">
-                                <!-- <h6 class="font-weight-bold mt-3">Kemnaker dorong Calon Pekerja Migran dapat kuota Kartu Prakerja 2021</h6> -->
                                 <div class="img-caption bottom-top mt-2">
-                                    <router-link to="/single">
+                                    <a href="/single">
                                         <h3 class="font-weight-bold">Kemnaker dorong Calon Pekerja Migran dapat kuota
                                             Kartu Prakerja 2021</h3>
                                         <p class="text-abumuda">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
                                             Kartu Prakerja 2021.
                                             Selain itu Kemenker memberikan berbagai jenis seminar untuk pemegang Kartu
                                             Prakerja 2021.</p>
-                                    </router-link>
+                                    </a>
                                 </div>
                             </div>
                             <div class="row align-items-center mt-3">
@@ -206,9 +207,8 @@
                             <div class="img-container">
                                 <img class="rounded-15 img-fluid mb-5"
                                     :src="require ('@/assets/images/artikel/akhirnya-facebook-bersedia.png')" alt="">
-                                <!-- <h6 class="font-weight-bold mt-3">Kemnaker dorong Calon Pekerja Migran dapat kuota Kartu Prakerja 2021</h6> -->
                                 <div class="img-caption bottom-top mt-2">
-                                    <a href="">
+                                    <a href="/single">
                                         <h3 class="font-weight-bold">Akhirnya Facebook Bersedia membayar berita di Australia</h3>
                                         <p class="text-abumuda">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
                                             Kartu Prakerja 2021.
@@ -238,9 +238,8 @@
                             <div class="img-container">
                                 <img class="rounded-15 img-fluid mb-5"
                                     :src="require ('@/assets/images/artikel/tangapi-akselerasi-perubahan.png')" alt="">
-                                <!-- <h6 class="font-weight-bold mt-3">Kemnaker dorong Calon Pekerja Migran dapat kuota Kartu Prakerja 2021</h6> -->
                                 <div class="img-caption bottom-top mt-2">
-                                    <a href="">
+                                    <a href="/single">
                                         <h3 class="font-weight-bold">Tanggapi Akselerasi Perubahan dengan Perubahan SDM</h3>
                                         <p class="text-abumuda">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
                                             Kartu Prakerja 2021.
@@ -270,9 +269,8 @@
                             <div class="img-container">
                                 <img class="rounded-15 img-fluid mb-5"
                                     :src="require ('@/assets/images/artikel/kondisi-makin-parah.png')" alt="">
-                                <!-- <h6 class="font-weight-bold mt-3">Kemnaker dorong Calon Pekerja Migran dapat kuota Kartu Prakerja 2021</h6> -->
                                 <div class="img-caption bottom-top mt-2">
-                                    <a href="">
+                                    <a href="/single">
                                         <h3 class="font-weight-bold">Kondisi makin parah di Myanmar saat Pabrik-pabrik China dijarah</h3>
                                         <p class="text-abumuda">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
                                             Kartu Prakerja 2021.
@@ -302,9 +300,8 @@
                             <div class="img-container">
                                 <img class="rounded-15 img-fluid mb-5"
                                     :src="require ('@/assets/images/artikel/sudah-tahu-syarat-dapat-blt.png')" alt="">
-                                <!-- <h6 class="font-weight-bold mt-3">Kemnaker dorong Calon Pekerja Migran dapat kuota Kartu Prakerja 2021</h6> -->
                                 <div class="img-caption bottom-top mt-2">
-                                    <a href="">
+                                    <a href="/single">
                                         <h3 class="font-weight-bold">Sudah tahu syarat dapat BLT UMKM 2021? cek di sini</h3>
                                         <p class="text-abumuda">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
                                             Kartu Prakerja 2021.
@@ -334,9 +331,8 @@
                             <div class="img-container">
                                 <img class="rounded-15 img-fluid mb-5"
                                     :src="require ('@/assets/images/artikel/pantang-menyerah.png')" alt="">
-                                <!-- <h6 class="font-weight-bold mt-3">Kemnaker dorong Calon Pekerja Migran dapat kuota Kartu Prakerja 2021</h6> -->
                                 <div class="img-caption bottom-top mt-2">
-                                    <a href="">
+                                    <a href="/single">
                                         <h3 class="font-weight-bold">Pantang Menyerah, Mantan Karyawan toko Sepatu Sukses jadi Bos Sepatu</h3>
                                         <p class="text-abumuda">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
                                             Kartu Prakerja 2021.
@@ -366,9 +362,8 @@
                             <div class="img-container">
                                 <img class="rounded-15 img-fluid mb-5"
                                     :src="require ('@/assets/images/artikel/waket-mpr.png')" alt="">
-                                <!-- <h6 class="font-weight-bold mt-3">Kemnaker dorong Calon Pekerja Migran dapat kuota Kartu Prakerja 2021</h6> -->
                                 <div class="img-caption bottom-top mt-2">
-                                    <a href="">
+                                    <a href="/single">
                                         <h3 class="font-weight-bold">Waket MPR sebut ada 1.768 Hoax soal COVID-19 di 2.264 akun Medsos</h3>
                                         <p class="text-abumuda">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
                                             Kartu Prakerja 2021.
@@ -399,7 +394,7 @@
                                 <img class="rounded-15 img-fluid mb-5"
                                     :src="require ('@/assets/images/artikel/batu-bara-dihapus.png')" alt="">
                                 <div class="img-caption bottom-top mt-2">
-                                    <a href="">
+                                    <a href="/single">
                                         <h3 class="font-weight-bold">Abu Batu Bara dihapus dari daftar limbah B3, PKB:Ancam Hidup Manusia</h3>
                                         <p class="text-abumuda">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
                                             Kartu Prakerja 2021.
@@ -430,7 +425,7 @@
                                 <img class="rounded-15 img-fluid mb-5"
                                     :src="require ('@/assets/images/artikel/rumah-mewah-dijakarta.png')" alt="">
                                 <div class="img-caption bottom-top mt-2">
-                                    <a href="">
+                                    <a href="/single">
                                         <h3 class="font-weight-bold">Rumah Mewah di Jakarta Diskon hingga Rp 227 juta & bebas BPHTB!</h3>
                                         <p class="text-abumuda">Jakarta - Kemenker dorong calon Pekerja Migran dapat kuota
                                             Kartu Prakerja 2021.

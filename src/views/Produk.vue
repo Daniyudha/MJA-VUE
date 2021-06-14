@@ -83,7 +83,7 @@
                                 <li>Membantu Meningkatkan Konsentrasi dan Daya Ingat</li>
                                 <li>Memperbaiki Fungsi Ereksi Pada Pria</li>
                                 <li>Meningkatkan Produksi Sperma, Merangsang Saraf Sensorik Pada Organ Seksual, Merangsang
-                                    Sekresi Hormon Dan Meningkatkan Jumlah Dan Kepadatan Seperma</li>
+                                    Sekresi Hormon Dan Meningkatkan Jumlah Dan Kepadatan Sperma</li>
                             </ul>
                         </div>
                     </div>

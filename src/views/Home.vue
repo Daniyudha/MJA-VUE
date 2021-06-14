@@ -16,10 +16,10 @@
                 <p class="text-abumuda">
                     "Dapatkan penghasilan impian anda yang tak terhingga dengan
                     mempelajari JURUS AJAIB jaman now yang akan melejitkan penghasilan
-                    anda berlipat-lipat bersama Milagros."
+                    anda berlipat-lipat bersama MJA."
                 </p>
                 <div class="mt-4 wow fadeInLeft" data-wow-delay="300ms">
-                    <a class="btn-bg-ijo rounded-15 py-2 px-4" href="">Join Now</a>
+                    <button class="btn-bg-ijo rounded-15 py-2 px-4">Join Now</button>
                 </div>
             </div>
             <div class="col-lg-7 col-md-7 offset-lg- offset-md-0">
@@ -35,7 +35,7 @@
             <p class="text-abumuda">
             "Dapatkan penghasilan impian anda yang tak terhingga dengan
             mempelajari JURUS AJAIB jaman now yang akan melejitkan penghasilan
-            anda berlipat-lipat bersama Milagros."
+            anda berlipat-lipat bersama MJA."
             </p>
             <div class="mt-4 text-lg-left">
             <a class="btn-bg-ijo rounded-15 py-2 px-4" href="">Join Now</a>
@@ -103,12 +103,6 @@
         </div>
       </div>
 
-        <!-- <style>
-          .owl-carousel .owl-item img {
-            display: inline;
-            width: auto;
-          }
-        </style> -->
         <!-- Responsive -->
         <div class="d-lg-none d-md-none d-block mt-5">
           <carousel class="card-carousel" :responsive="{0:{items:1,nav:false}}" 
@@ -118,12 +112,10 @@
                       <div class="card-pt">
                           <div class="card-body">
                             <div class="text-center">
-                                <div class="">
                                 <img
                                     :src="require ('@/assets/images/beranda/sejak-tahun-2013.png')"
                                     alt=""
                                 />
-                                </div>
                                 <p class="card-title">Sejak Tahun 2013</p>
                                 <p class="card-text text-abumuda">
                                 Dipimpin oleh Bapak Muhammad Makinudin, S.E. yang bergerak
@@ -136,7 +128,7 @@
                   </div>
               </div>
               <div class="item">
-                  <div class="mb-4 col-lg-4 col-md-4">
+                  <div class="mb-4">
                       <div class="card-pt">
                           <div class="card-body">
                               <div class="text-center">
@@ -157,7 +149,7 @@
                   </div>
               </div>
               <div class="item">
-                  <div class="mb-4 col-lg-4 col-md-4">
+                  <div class="mb-4">
                   <div class="card-pt">
                       <div class="card-body">
                         <div class="text-center">
@@ -181,7 +173,6 @@
         </div>
       <!-- end responsive -->
     </div>
-    <hr class="hr-testi d-lg-none d-md-none d-block mb-5" />
     <!-- END PT MAKIN JAYA -->
 
     <!-- Background -->
@@ -300,7 +291,6 @@
       </div>
     </carousel>
   </div>
-  <hr class="hr-testi">
   <div class="mt-5 text-center wow fadeInLeft" data-wow-delay="300ms">
     <a class="btn-bg-ijo rounded-15 py-2 px-4" href="/testimonial">Testimoni Lainnya</a>
   </div>
@@ -317,7 +307,7 @@
     <p class="text-abumuda wow fadeInLeft" data-wow-delay="200ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
       porttitordapibus dictum.</p>
     <div class="row justify-content-center d-md-flex d-none">
-      <div class="mb-4 col-lg-4 col-md-4">
+      <div class="mb-4 col-md-4">
         <div class="card-berita wow fadeInLeft" data-wow-delay="400ms">
           <img class="img-fluid rounded-15" :src="require ('@/assets/images/beranda/artikel-1.png')" alt="">
           <div class="card-body">
@@ -331,7 +321,7 @@
           </div>
         </div>
       </div>
-      <div class="mb-4 col-lg-4 col-md-4">
+      <div class="mb-4 col-md-4">
         <div class="card-berita wow fadeInUp" data-wow-delay="600ms">
           <img class="img-fluid rounded-15" :src="require ('@/assets/images/beranda/artikel-2.png')" alt="">
           <div class="card-body">
@@ -344,7 +334,7 @@
           </div>
         </div>
       </div>
-      <div class="mb-4 col-lg-4 col-md-4">
+      <div class="mb-4 col-md-4">
         <div class="card-berita wow fadeInRight" data-wow-delay="800ms">
           <img class="img-fluid rounded-15" :src="require ('@/assets/images/beranda/artikel-3.png')" alt="">
           <div class="card-body">
@@ -379,7 +369,7 @@
             </div>
           </div>
           <div class="item">
-            <div class="mb-4 col-lg-4 col-md-4">
+            <div class="mb-4">
               <div class="card-berita">
                 <img class="img-fluid rounded-15" :src="require ('@/assets/images/beranda/artikel-2.png')" alt="">
                 <div class="card-body">
@@ -394,7 +384,7 @@
             </div>
           </div>
           <div class="item">
-            <div class="mb-4 col-lg-4 col-md-4">
+            <div class="mb-4">
               <div class="card-berita">
                 <img class="img-fluid rounded-15" :src="require ('@/assets/images/beranda/artikel-3.png')" alt="">
                 <div class="card-body">
@@ -412,7 +402,6 @@
     </div>
     <!-- end responsive -->
   </div>
-  <hr class="hr-testi d-lg-none d-md-none d-block mb-5" />
   <!-- END BERITA & ARTIKEL -->
 
   <!-- Backgroung 5-6 -->
@@ -501,7 +490,7 @@
           </div>
         </div>
         <div class="item">
-          <div class="mb-4 col-lg-4 col-md-4">
+          <div class="mb-4">
             <div class="card-support">
               <div class="card-body">
                 <div class="text-center">
@@ -519,7 +508,7 @@
           </div>
         </div>
         <div class="item">
-          <div class="mb-4 col-lg-4 col-md-4">
+          <div class="mb-4">
             <div class="card-support">
               <div class="card-body">
                 <div class="text-center">
@@ -539,7 +528,6 @@
       </carousel>
     </div>
     <!-- end responsive -->
-    <hr class="-hr d-lg-none d-md-none d-block mb-5" />
   </section>
   <!-- END CUSTOMER SERVICE -->
 
@@ -574,22 +562,22 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
   .owl-carousel .owl-item img {
-    display: initial;
-    width: auto;
+    display: initial !important;
+    width: auto !important;
   }
   .owl-theme .owl-dots .owl-dot span {
-    width: 90px;
-    height: 2px;
+    width: 85px !important;
+    height: 3px !important;
     margin: 5px 0px;
-    background: #D6D6D6;
+    background: #D6D6D6 !important;
     display: block;
     /* -webkit-backface-visibility: visible; */
     transition: opacity 200ms ease;
     border-radius: 0px;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #29BB89;
+    background: #29BB89 !important;
 }
 </style>

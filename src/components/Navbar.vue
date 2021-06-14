@@ -231,7 +231,7 @@
       display: block;
       padding: 1rem 1rem;
       color: #fff;
-      font-size: 20px;
+      font-size: 18px !important;
     }
   }
   @media (max-width: 400px) {
@@ -249,7 +249,7 @@
       display: block;
       padding: 1rem 1rem;
       color: #fff;
-      font-size: 16px;
+      font-size: 16px !important;
     }
   }
 </style>
