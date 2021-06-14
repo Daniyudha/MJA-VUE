@@ -4,6 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
     max-width: 100%;
     overflow-x: hidden;
+    background: #ffffff;
 }
 
 ul li ul.dropdown{
@@ -2024,6 +2025,11 @@ section.imageContainer {
 .testi-home-carousel .owl-item.center {
   z-index: 3;
   /* transform: scale(1.5); */
+}
+
+.testi-home-carousel .owl-carousel .owl-item img {
+  display: initial;
+  width: auto;
 }
 
 .testi-home-carousel .item {

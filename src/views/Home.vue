@@ -574,7 +574,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
   .owl-carousel .owl-item img {
     display: initial;
     width: auto;
