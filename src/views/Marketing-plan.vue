@@ -35,20 +35,20 @@
             <VueSlickCarousel
                 ref="c2"
                 :asNavFor="$refs.c1"
-                :slidesToShow="5"
+                :slidesToShow="5.2"
                 :focusOnSelect="true"
                 >
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/mp-page-1.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/mp-page-2.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/mp-page-3.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/mp-page-4.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/mp-page-5.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/mp-page-6.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/mp-page-7.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/mp-page-8.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/mp-page-9.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/mp-page-10.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/mp-page-11.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/mp-page-1.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/mp-page-2.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/mp-page-3.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/mp-page-4.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/mp-page-5.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/mp-page-6.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/mp-page-7.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/mp-page-8.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/mp-page-9.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/mp-page-10.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/mp-page-11.png')"/></div>
             </VueSlickCarousel>
         </div>
         <!-- END SLIDER -->
@@ -124,7 +124,7 @@
 
 @media (max-width:769px) {
     .c1{
-        margin: 50px;
+        margin: 30px;
         border: 15px solid #000;
         border-radius: 15px;
         max-width: 90%;
@@ -140,14 +140,46 @@
 
 @media (max-width:500px) {
     .c1{
-        margin: 18px;
-        border: 10px solid #000;
+        margin: 9px;
+        border: 8px solid #000;
         border-radius: 15px;
         max-width: 90%;
     }
     .c2{
         padding: 5px;
-        margin-left: 60px;
+        margin-left: 40px;
+    }
+    .-mt-banner{
+        margin-top: 200px;
+    }
+}
+
+@media (max-width:400px) {
+    .c1{
+        margin: 7px;
+        border: 8px solid #000;
+        border-radius: 15px;
+        max-width: 90%;
+    }
+    .c2{
+        padding: 5px;
+        margin-left: 40px;
+    }
+    .-mt-banner{
+        margin-top: 200px;
+    }
+}
+
+@media (max-width:330px) {
+    .c1{
+        margin: 5px;
+        border: 8px solid #000;
+        border-radius: 15px;
+        max-width: 90%;
+    }
+    .c2{
+        padding: 5px;
+        margin-left: 40px;
     }
     .-mt-banner{
         margin-top: 200px;

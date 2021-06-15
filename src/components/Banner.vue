@@ -3,9 +3,9 @@
   <div class="container-fluid bg-green -mt-banner position-relative">
     <div class="container">
       <div class="row justify-content-center align-items-center">
-        <div class="col-lg-7 col-md-10 col-sm-8 col-10">
+        <div class="col-lg-8 col-md-10 col-sm-8 col-10">
           <h1 class="text-white t-ban wow fadeInDown">BELUM MENJADI MEMBER KAMI?</h1>
-          <p class="text-white wow fadeInDown">AYO BERGABUNG BERSAMA KELUARGA BESAR MILAGROS</p>
+          <p class="text-white wow fadeInDown">AYO BERGABUNG BERSAMA KELUARGA BESAR MJA</p>
         </div>
         <div class="col-lg-3 col-md-5 col-sm-8 col-10">
           <a href="">

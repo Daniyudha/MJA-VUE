@@ -172,11 +172,12 @@ ul li ul.dropdown li{
   .navbar-light .navbar-nav .nav-link:hover,
   .navbar-light .navbar-nav .nav-link:focus {
       color: #29BB89;
+      font-weight: bold;
   }
   
   .navbar-light .navbar-nav .nav-link:active,
   .navbar-light .navbar-nav .nav-link.active {
-      color: #3B61A6;
+      color: #29BB89;
       font-weight: bold;
   }
 
@@ -2095,6 +2096,13 @@ section.imageContainer {
   border-radius: 100%;
   color: white;
   background-color: #29BB89;
+}
+
+@media (max-width:500px) {
+  .slick-prev:before,
+  .slick-next:before {
+  padding: 10px 10px;
+}
 }
 
 

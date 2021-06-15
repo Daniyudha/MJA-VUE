@@ -12,7 +12,7 @@
                 <h3 class="text-abumuda t-g-d wow fadeInDown" data-wow-delay="400ms">PT. MAKIN JAYA AGUNG</h3>
             </div>
 
-            <VueSlickCarousel class=""
+            <VueSlickCarousel 
                 ref="c1"
                 :asNavFor="$refs.c2"
                 :focusOnSelect="true"
@@ -64,49 +64,49 @@
             <VueSlickCarousel
                 ref="c2"
                 :asNavFor="$refs.c1"
-                :slidesToShow="5"
+                :slidesToShow="5.2"
                 :focusOnSelect="true"
                 >
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-1.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-2.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-3.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-4.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-5.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-6.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-7.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-8.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-9.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-10.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-11.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-12.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-13.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-14.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-15.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-16.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-17.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-18.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-19.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-20.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-21.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-22.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-23.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-24.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-25.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-26.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-27.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-28.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-29.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-30.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-31.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-32.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-33.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-34.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-35.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-36.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-37.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-38.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-39.png')"/></div>
-                <div class="c2"><img class="rounded-15" :src="require ('@/assets/images/marketing plan/ke-page-40.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-1.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-2.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-3.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-4.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-5.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-6.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-7.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-8.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-9.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-10.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-11.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-12.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-13.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-14.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-15.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-16.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-17.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-18.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-19.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-20.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-21.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-22.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-23.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-24.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-25.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-26.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-27.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-28.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-29.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-30.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-31.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-32.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-33.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-34.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-35.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-36.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-37.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-38.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-39.png')"/></div>
+                <div class="c2"><img class="rounded" :src="require ('@/assets/images/marketing plan/ke-page-40.png')"/></div>
             </VueSlickCarousel>
         </div>
         <!-- END KODE ETIK -->
@@ -170,7 +170,7 @@
 }
 
 .c2{
-    padding: 30px;
+    padding: 20px;
     margin-left: 40px;
 }
 
@@ -182,6 +182,12 @@
 }
 
 @media (max-width:769px) {
+    .c1{
+        margin: 30px;
+        border: 15px solid #000;
+        border-radius: 15px;
+        max-width: 90%;
+    }
     .c2{
         padding: 10px;
         margin-left: 50px;
@@ -193,14 +199,46 @@
 
 @media (max-width:500px) {
     .c1{
-        margin: 18px;
-        border: 10px solid #000;
+        margin: 9px;
+        border: 8px solid #000;
         border-radius: 15px;
         max-width: 90%;
     }
     .c2{
         padding: 5px;
-        margin-left: 60px;
+        margin-left: 40px;
+    }
+    .-mt-banner{
+        margin-top: 200px;
+    }
+}
+
+@media (max-width:400px) {
+    .c1{
+        margin: 7px;
+        border: 8px solid #000;
+        border-radius: 15px;
+        max-width: 90%;
+    }
+    .c2{
+        padding: 5px;
+        margin-left: 40px;
+    }
+    .-mt-banner{
+        margin-top: 200px;
+    }
+}
+
+@media (max-width:330px) {
+    .c1{
+        margin: 5px;
+        border: 8px solid #000;
+        border-radius: 15px;
+        max-width: 90%;
+    }
+    .c2{
+        padding: 5px;
+        margin-left: 40px;
     }
     .-mt-banner{
         margin-top: 200px;
